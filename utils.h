@@ -25,7 +25,7 @@
 #include <unistd.h>
 #include <math.h>               /* for isfinite */
 #include <string.h>             /* for strcmp */
-#include <aubio.h>
+#include <aubio/aubio.h>
 #include "config.h"
 #include "sndfileio.h"
 #ifdef HAVE_JACK
