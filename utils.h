@@ -27,6 +27,7 @@
 #include <string.h>             /* for strcmp */
 #include <aubio/aubio.h>
 #include "sndfileio.h"
+#include <aubio/types.h>
 #ifdef HAVE_JACK
 #include "jackio.h"
 #endif /* HAVE_JACK */
@@ -58,6 +59,9 @@ typedef int (*aubio_process_func_t)
 #endif
 void examples_common_process (aubio_process_func_t process_func,
     aubio_print_func_t print);
+
+/** character - not in /usr/include/aubio/types.h */
+typedef char    char_t;
 
 extern char_t * pitch_unit;
 extern char_t * pitch_mode;
