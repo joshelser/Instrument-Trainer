@@ -1,6 +1,7 @@
 #include <QApplication>
 
 #include <QtOpenGL>
+#include "QtWindow.h"
 
 int main(int argc, char *argv[])
 {
@@ -12,5 +13,8 @@ int main(int argc, char *argv[])
     return -1;
   }
 
+  QtWindow window;
+
+  window.show();
   return app.exec();
 }
