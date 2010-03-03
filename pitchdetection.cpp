@@ -21,6 +21,8 @@ uint_t samplerate = 44100;
 
 smpl_t pitch = 0.;
 
+unsigned int pos = 0;
+
 fvec_t *ibuf;
 fvec_t *obuf;
 
@@ -29,9 +31,27 @@ static void process_print (void) {
     //outmsg("%f\n",pitch);
 }
 
+static int aubio_process (smpl_t **input, smpl_t **output, int nframes)
+{
+    unsigned int i, j;
+
+    for (j=0;j<(unsigned)nframes;j++) {
+        for (i=0;i<channels;i++) {
+            /* write input to datanew */
+            fvec_write_sample(ibuf, input[i][j], i, pos);
+            /* put synthnew in output */
+            output[i][j] = fvec_read_sample(obuf, i, pos);
+        }
+    }
+
+    return 1;
+}
+
 int main (int argc, char **argv)
 {
     aubio_pitchdetection_t *pitchdetect = new_aubio_pitchdetection (buffer_size, overlap_size, channels, samplerate, detection_type, detection_mode);
+
+    aubio_pitchdetection_set_yinthresh(pitchdetect, 0.7);
 
     /* example_common_init() */
     aubio_sndfile_t *onsetfile = NULL;
@@ -52,14 +72,23 @@ int main (int argc, char **argv)
     /* end func */
 
     /* examples_common_process() */
+
     aubio_jack_t *jack_setup;
-    jack_setup = new_aubio_jack(channels, channels,  (aubio_process_func_t)process_print);
+
+    /* Set JACK callback */
+    jack_setup = new_aubio_jack(channels, channels,  (aubio_process_func_t)aubio_process);
+
     aubio_jack_activate(jack_setup);
+    
     pause();
+
     aubio_jack_close (jack_setup);
+
     /* end func */
 
     sleep (5);
+
+    (void)process_print();
 
     return 0;
 }
