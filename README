@@ -1,1 +1,8 @@
 Instrument Trainer
+
+To compile:
+$ qmake
+$ make
+
+To run:
+$ ./Instrument-Trainer
