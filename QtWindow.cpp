@@ -34,9 +34,9 @@ void QtWindow::createActions()
   m_openAct->setStatusTip(tr("Open an existing file"));
   connect(m_openAct, SIGNAL(triggered()), this, SLOT(open()));
 
-  m_exitAct = new QAction(tr("E&xit"), this);
+  m_exitAct = new QAction(tr("&Quit"), this);
   m_exitAct->setShortcut(tr("Ctrl+Q"));
-  m_exitAct->setStatusTip(tr("Exit the application"));
+  m_exitAct->setStatusTip(tr("Quit the application"));
   connect(m_exitAct, SIGNAL(triggered()), this, SLOT(close()));
 }
 
