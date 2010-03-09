@@ -4,12 +4,10 @@ QtWindow::QtWindow()
 {
   setWindowTitle(tr("Instrument Trainer"));
 
-  QHBoxLayout *mainLayout = new QHBoxLayout;
+  QVBoxLayout *mainLayout = new QVBoxLayout;
 
-  m_label = new QLabel(this);
-  m_label->setText(tr("testing testing testing"));
-
-  mainLayout->addWidget(m_label);
+  m_glWidget = new CGLView(this);
+  mainLayout->addWidget(m_glWidget);
 
   QWidget *centralWin = new QWidget();
   centralWin->setLayout(mainLayout);

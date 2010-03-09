@@ -2,9 +2,9 @@
 #define __QT_WINDOW_H__
 
 #include <QtGui>
+#include "GlView.h"
 
 class QMenu;
-class QLabel;
 
 class QtWindow : public QMainWindow
 {
@@ -25,7 +25,7 @@ class QtWindow : public QMainWindow
   QAction *m_exitAct;
   QMenu *m_fileMenu;
 
-  QLabel *m_label;
+  CGLView *m_glWidget;
 };
 
 #endif	/* __QT_WINDOW_H__ */
