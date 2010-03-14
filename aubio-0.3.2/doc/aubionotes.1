@@ -1,0 +1,73 @@
+.TH "AUBIONOTES" "1" 
+.SH "NAME" 
+aubionotes \(em a command line tool for real time extraction of musical notes. 
+.SH "SYNOPSIS" 
+.PP 
+\fBaubionotes \fB[options] [\-i soundfile]\fR\fR 
+.SH "DESCRIPTION" 
+.PP 
+\fBaubionotes\fR attempts to detect notes in audio 
+signals, segmenting consecutive events using onset detection, and 
+determining their pitch using a fundamental frequency extraction algorithm. 
+ 
+.PP 
+When started without an input file argument 
+(\fB\-\-input\fP), \fBaubionotes\fR creates a jack 
+input and a MIDI output. When an input file is given, the results are given 
+on the console. 
+.SH "OPTIONS" 
+.PP 
+This program follows the usual GNU command line syntax, with long 
+options starting with two dashes (`\-').  A summary of options is included 
+below. 
+.IP "\fB-i\fP   \fB\-\-input filein\fP" 10 
+Run analysis on this audio file. Most common uncompressed formats are 
+supported. 
+.IP "\fB-o\fP   \fB\-\-output fileout\fP" 10 
+Save results in this file. The file will be created on the model of the 
+input file. Results are marked by a short wood-block sample. 
+.IP "\fB-P\fP   \fB\-\-pitch mode\fP" 10 
+The pitch detection function to run. Available functions are 
+\fIyinfft\fP, \fIyin\fP, 
+\fImcomb\fP, \fIfcomb\fP, and 
+\fIschmitt\fP. 
+.IP "\fB-O\fP   \fB\-\-onset mode\fP" 10 
+The onset detection function to run. Available functions are 
+\fIcomplexdomain\fP, \fIhfc\fP, 
+\fIphase\fP, \fIspecdiff\fP, 
+\fIenergy\fP, \fIkl\fP and 
+\fImkl\fP. By default, both Kullback Liebler (kl) and complex 
+domain are used in parallel. 
+.IP "\fB-t\fP   \fB\-\-threshold value\fP" 10 
+Set the threshold value for the onset peak picking. Typical values are 
+within \fB0.001\fP and \fB0.900\fP. Default is 
+\fB0.1\fP. \fILower\fP threshold values imply  
+\fImore\fP onsets detected. Try \fB0.3\fP in 
+case of over-detections. 
+.IP "\fB-j\fP   \fB\-\-jack\fP" 10 
+Run in jack mode (default when started without input file) and creates a midi output. 
+.IP "\fB-v\fP   \fB\-\-verbose\fP" 10 
+Show results on the console (default). 
+.IP "\fB-h\fP   \fB\-\-help\fP" 10 
+Show summary of options. 
+.SH "BUGS" 
+.PP 
+For now the program has only been tested on audio signals sampled at 
+44.1\ kHz. 
+.SH "SEE ALSO" 
+.PP 
+\fBaubioonset\fR(1) 
+\fBaubiotrack\fR(1) 
+\fBaubiocut\fR(1) 
+\fBaubiopitch\fR(1) 
+ 
+.SH "AUTHOR" 
+.PP 
+This manual page was written by Paul Brossier (piem@altern.org). Permission 
+is granted to copy, distribute and/or modify this document under the terms 
+of the GNU General Public License, Version 2 any later version published 
+by the Free Software Foundation. 
+.PP 
+On Debian systems, the complete text of the GNU General Public 
+License can be found in /usr/share/common-licenses/GPL. 
+.\" created by instant / docbook-to-man, Sat 07 Oct 2006, 23:51 

@@ -1,0 +1,97 @@
+.TH "AUBIOCUT" "1" 
+.SH "NAME" 
+aubiocut \(em a command line tool to extract onsets and tempo from sound files. 
+.SH "SYNOPSIS" 
+.PP 
+\fBaubiocut \fB[options] \-i soundfile\fR\fR 
+.SH "DESCRIPTION" 
+.PP 
+\fBaubiocut\fR attempts to detect onset times, the 
+beginning of discreted sound events, or beat locations, in audio 
+signals. 
+.PP 
+When using the \fB\-\-cut\fP option, 
+\fBaubiocut\fR takes an input sound file and produce small 
+files sliced at onset locations (or silences). The slices can then be sent 
+for example to a player, a sequencer, or a sampler. 
+.PP 
+A plotting module is available via the Gnuplot Python package. 
+.SH "OPTIONS" 
+.PP 
+This program follows the usual GNU command line syntax, with long 
+options starting with two dashes (`\-').  A summary of options is included 
+below. 
+.IP "\fB-i\fP   \fB\-\-input filein\fP" 10 
+input sound file 
+.IP "\fB-m\fP   \fB\-\-mode onset_detection_mode\fP" 10 
+onset detection mode [default=dual] complexdomain|hfc|phase|specdiff|energy|kl|mkl|dual 
+.IP "\fB-b\fP   \fB\-\-beat\fP" 10 
+detect beats and output beat locations 
+.IP "\fB-B\fP   \fB\-\-bufsize=BUFSIZE\fP" 10 
+buffer size [default=512] 
+.IP "\fB-H\fP   \fB\-\-hopsize=HOPSIZE\fP" 10 
+overlap size [default=256] 
+.IP "\fB-t\fP   \fB\-\-threshold=THRESHOLD\fP" 10 
+onset peak picking threshold [default=0.3] 
+.IP "\fB-C\fP   \fB\-\-dcthreshold=DCTHRESHOLD\fP" 10 
+onset peak picking DC component [default=1.] 
+.IP "\fB-s\fP   \fB\-\-silence=SILENCE\fP" 10 
+silence threshold [default=\-70] 
+.IP "\fB-M\fP   \fB\-\-mintol=MINIOI\fP" 10 
+minimum inter onset interval [default=0.048s] 
+.IP "\fB-D\fP   \fB\-\-delay=DELAY\fP" 10 
+number of seconds to take back [default=system] 
+default system delay is 3*hopsize/samplerate 
+.IP "\fB-L\fP   \fB\-\-localmin\fP" 10 
+use local minima after peak detection 
+.IP "\fB-c\fP   \fB\-\-cut\fP" 10 
+cut input sound file at detected labels (best used with option \-L) 
+.IP "\fB-d\fP   \fB\-\-derivate\fP" 10 
+derivate onset detection function 
+.IP "\fB-S\fP   \fB\-\-silencecut\fP" 10 
+outputs silence locations instead of onset locations 
+.IP "\fB-z\fP   \fB\-\-zerocross=ZEROTHRES\fP" 10 
+zero-crossing threshold for slicing [default=0.00008] 
+.IP "\fB-f\fP   \fB\-\-function\fP" 10 
+print detection function 
+.IP "\fB-q\fP   \fB\-\-quiet\fP" 10 
+be quiet 
+.IP "\fB-h\fP   \fB\-\-help\fP" 10 
+Show a summary of options. 
+.IP "\fB-v\fP   \fB\-\-verbose\fP" 10 
+make lots of noise [default] 
+.SS "Plotting options" 
+.PP 
+When the Python interface to Gnuplot is installed, the following 
+additional options are available. 
+.IP "\fB-p\fP   \fB\-\-plot\fP" 10 
+draw plot 
+.IP "\fB-n\fP   \fB\-\-no-onsets\fP" 10 
+do not plot detected onsets, only detection functions 
+.IP "\fB-x\fP   \fB\-\-xsize=SIZE\fP" 10 
+define horizontal plot size [default=1.] 
+.IP "\fB-y\fP   \fB\-\-ysize=SIZE\fP" 10 
+define vertical plot size [default=1.] 
+.IP "\fB-O\fP   \fB\-\-outplot=OUTPLOT\fP" 10 
+save plot to output.{ps,eps,png,svg} instead of displaying it 
+.SH "BUGS" 
+.PP 
+For now the program has only been tested on audio signals sampled at 
+44.1\ kHz. 
+.SH "SEE ALSO" 
+.PP 
+\fBaubioonset\fR(1) 
+\fBaubiotrack\fR(1) 
+\fBaubionotes\fR(1) 
+\fBaubiopitch\fR(1) 
+ 
+.SH "AUTHOR" 
+.PP 
+This manual page was written by Paul Brossier (piem@altern.org). Permission 
+is granted to copy, distribute and/or modify this document under the terms 
+of the GNU General Public License, Version 2 any later version published 
+by the Free Software Foundation. 
+.PP 
+On Debian systems, the complete text of the GNU General Public 
+License can be found in /usr/share/common-licenses/GPL. 
+.\" created by instant / docbook-to-man, Sat 07 Oct 2006, 23:52 
