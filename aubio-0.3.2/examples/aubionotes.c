@@ -103,7 +103,7 @@ int aubio_process(float **input, float **output, int nframes) {
 
 void process_print (void);
 void process_print (void) {
-      if (verbose) outmsg("%f\n",pitch);
+      if (verbose) outmsg("%.3f\n",pitch);
 }
 
 int main(int argc, char **argv) {

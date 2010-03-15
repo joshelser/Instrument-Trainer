@@ -424,7 +424,7 @@ sint_t aubio_midi_send_event(aubio_midi_player_t* player, aubio_midi_event_t* ev
     case NOTE_ON:
       //AUBIO_MSG("Time=%f, chan=%d, pitch=%d vol=%d \n", 
       //      print_time, event->channel, event->param1, event->param2);
-      AUBIO_MSG("%d\n", event->param1);
+      AUBIO_MSG("%.3d\n", event->param1);
       /*if (aubio_synth_noteon(synth, event->channel, event->param1, event->param2) != AUBIO_OK) {
         return AUBIO_FAIL;
       }*/
@@ -432,7 +432,7 @@ sint_t aubio_midi_send_event(aubio_midi_player_t* player, aubio_midi_event_t* ev
     case NOTE_OFF:
       /*AUBIO_MSG("Time=%f, chan=%d, pitch=%d, vol=0\n",
           print_time, event->channel, event->param1);*/
-      AUBIO_MSG("%d\n", event->param1);
+      //AUBIO_MSG("%d\n", event->param1);
       /*if (aubio_synth_noteoff(synth, event->channel, event->param1) != AUBIO_OK) {
         return AUBIO_FAIL;
       }*/
