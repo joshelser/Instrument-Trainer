@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cameron/pianobooster-src-0.6.4/src
+CMAKE_SOURCE_DIR = /home/cameron/Instrument-Trainer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cameron/pianobooster-src-0.6.4/build
+CMAKE_BINARY_DIR = /home/cameron/Instrument-Trainer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pianobooster.dir/depend.make
@@ -50,18 +50,18 @@ include CMakeFiles/pianobooster.dir/progress.make
 include CMakeFiles/pianobooster.dir/flags.make
 
 CMakeFiles/pianobooster.dir/QtMain.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/QtMain.o: /home/cameron/pianobooster-src-0.6.4/src/QtMain.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/pianobooster.dir/QtMain.o: /home/cameron/Instrument-Trainer/src/QtMain.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/QtMain.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/QtMain.o -c /home/cameron/pianobooster-src-0.6.4/src/QtMain.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/QtMain.o -c /home/cameron/Instrument-Trainer/src/QtMain.cpp
 
 CMakeFiles/pianobooster.dir/QtMain.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/QtMain.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/QtMain.cpp > CMakeFiles/pianobooster.dir/QtMain.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/QtMain.cpp > CMakeFiles/pianobooster.dir/QtMain.i
 
 CMakeFiles/pianobooster.dir/QtMain.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/QtMain.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/QtMain.cpp -o CMakeFiles/pianobooster.dir/QtMain.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/QtMain.cpp -o CMakeFiles/pianobooster.dir/QtMain.s
 
 CMakeFiles/pianobooster.dir/QtMain.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/QtMain.o.requires
@@ -74,18 +74,18 @@ CMakeFiles/pianobooster.dir/QtMain.o.provides.build: CMakeFiles/pianobooster.dir
 .PHONY : CMakeFiles/pianobooster.dir/QtMain.o.provides.build
 
 CMakeFiles/pianobooster.dir/QtWindow.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/QtWindow.o: /home/cameron/pianobooster-src-0.6.4/src/QtWindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/pianobooster.dir/QtWindow.o: /home/cameron/Instrument-Trainer/src/QtWindow.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/QtWindow.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/QtWindow.o -c /home/cameron/pianobooster-src-0.6.4/src/QtWindow.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/QtWindow.o -c /home/cameron/Instrument-Trainer/src/QtWindow.cpp
 
 CMakeFiles/pianobooster.dir/QtWindow.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/QtWindow.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/QtWindow.cpp > CMakeFiles/pianobooster.dir/QtWindow.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/QtWindow.cpp > CMakeFiles/pianobooster.dir/QtWindow.i
 
 CMakeFiles/pianobooster.dir/QtWindow.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/QtWindow.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/QtWindow.cpp -o CMakeFiles/pianobooster.dir/QtWindow.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/QtWindow.cpp -o CMakeFiles/pianobooster.dir/QtWindow.s
 
 CMakeFiles/pianobooster.dir/QtWindow.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/QtWindow.o.requires
@@ -98,18 +98,18 @@ CMakeFiles/pianobooster.dir/QtWindow.o.provides.build: CMakeFiles/pianobooster.d
 .PHONY : CMakeFiles/pianobooster.dir/QtWindow.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiTopBar.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiTopBar.o: /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/pianobooster.dir/GuiTopBar.o: /home/cameron/Instrument-Trainer/src/GuiTopBar.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiTopBar.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiTopBar.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiTopBar.o -c /home/cameron/Instrument-Trainer/src/GuiTopBar.cpp
 
 CMakeFiles/pianobooster.dir/GuiTopBar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiTopBar.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.cpp > CMakeFiles/pianobooster.dir/GuiTopBar.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiTopBar.cpp > CMakeFiles/pianobooster.dir/GuiTopBar.i
 
 CMakeFiles/pianobooster.dir/GuiTopBar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiTopBar.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.cpp -o CMakeFiles/pianobooster.dir/GuiTopBar.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiTopBar.cpp -o CMakeFiles/pianobooster.dir/GuiTopBar.s
 
 CMakeFiles/pianobooster.dir/GuiTopBar.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiTopBar.o.requires
@@ -122,18 +122,18 @@ CMakeFiles/pianobooster.dir/GuiTopBar.o.provides.build: CMakeFiles/pianobooster.
 .PHONY : CMakeFiles/pianobooster.dir/GuiTopBar.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiSidePanel.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiSidePanel.o: /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_4)
+CMakeFiles/pianobooster.dir/GuiSidePanel.o: /home/cameron/Instrument-Trainer/src/GuiSidePanel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiSidePanel.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiSidePanel.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiSidePanel.o -c /home/cameron/Instrument-Trainer/src/GuiSidePanel.cpp
 
 CMakeFiles/pianobooster.dir/GuiSidePanel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiSidePanel.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.cpp > CMakeFiles/pianobooster.dir/GuiSidePanel.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiSidePanel.cpp > CMakeFiles/pianobooster.dir/GuiSidePanel.i
 
 CMakeFiles/pianobooster.dir/GuiSidePanel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiSidePanel.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.cpp -o CMakeFiles/pianobooster.dir/GuiSidePanel.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiSidePanel.cpp -o CMakeFiles/pianobooster.dir/GuiSidePanel.s
 
 CMakeFiles/pianobooster.dir/GuiSidePanel.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiSidePanel.o.requires
@@ -146,18 +146,18 @@ CMakeFiles/pianobooster.dir/GuiSidePanel.o.provides.build: CMakeFiles/pianoboost
 .PHONY : CMakeFiles/pianobooster.dir/GuiSidePanel.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o: /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_5)
+CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o: /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o -c /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.cpp
 
 CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.cpp > CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.cpp > CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.i
 
 CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.cpp -o CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.cpp -o CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.s
 
 CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o.requires
@@ -170,18 +170,18 @@ CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o.provides.build: CMakeFiles/pian
 .PHONY : CMakeFiles/pianobooster.dir/GuiMidiSetupDialog.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o: /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_6)
+CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o: /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o -c /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.cpp
 
 CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.cpp > CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.cpp > CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.i
 
 CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.cpp -o CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.cpp -o CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.s
 
 CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o.requires
@@ -194,18 +194,18 @@ CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o.provides.build: CMakeFiles/
 .PHONY : CMakeFiles/pianobooster.dir/GuiKeyboardSetupDialog.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o: /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_7)
+CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o: /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o -c /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.cpp
 
 CMakeFiles/pianobooster.dir/GuiPreferencesDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiPreferencesDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.cpp > CMakeFiles/pianobooster.dir/GuiPreferencesDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.cpp > CMakeFiles/pianobooster.dir/GuiPreferencesDialog.i
 
 CMakeFiles/pianobooster.dir/GuiPreferencesDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiPreferencesDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.cpp -o CMakeFiles/pianobooster.dir/GuiPreferencesDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.cpp -o CMakeFiles/pianobooster.dir/GuiPreferencesDialog.s
 
 CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o.requires
@@ -218,18 +218,18 @@ CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o.provides.build: CMakeFiles/pi
 .PHONY : CMakeFiles/pianobooster.dir/GuiPreferencesDialog.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o: /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_8)
+CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o: /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o -c /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.cpp
 
 CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.cpp > CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.cpp > CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.i
 
 CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.cpp -o CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.cpp -o CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.s
 
 CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o.requires
@@ -242,18 +242,18 @@ CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o.provides.build: CMakeFiles/pi
 .PHONY : CMakeFiles/pianobooster.dir/GuiSongDetailsDialog.o.provides.build
 
 CMakeFiles/pianobooster.dir/GuiLoopingPopup.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GuiLoopingPopup.o: /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_9)
+CMakeFiles/pianobooster.dir/GuiLoopingPopup.o: /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GuiLoopingPopup.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiLoopingPopup.o -c /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GuiLoopingPopup.o -c /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.cpp
 
 CMakeFiles/pianobooster.dir/GuiLoopingPopup.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GuiLoopingPopup.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.cpp > CMakeFiles/pianobooster.dir/GuiLoopingPopup.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.cpp > CMakeFiles/pianobooster.dir/GuiLoopingPopup.i
 
 CMakeFiles/pianobooster.dir/GuiLoopingPopup.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GuiLoopingPopup.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.cpp -o CMakeFiles/pianobooster.dir/GuiLoopingPopup.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.cpp -o CMakeFiles/pianobooster.dir/GuiLoopingPopup.s
 
 CMakeFiles/pianobooster.dir/GuiLoopingPopup.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GuiLoopingPopup.o.requires
@@ -266,18 +266,18 @@ CMakeFiles/pianobooster.dir/GuiLoopingPopup.o.provides.build: CMakeFiles/pianobo
 .PHONY : CMakeFiles/pianobooster.dir/GuiLoopingPopup.o.provides.build
 
 CMakeFiles/pianobooster.dir/GlView.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/GlView.o: /home/cameron/pianobooster-src-0.6.4/src/GlView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_10)
+CMakeFiles/pianobooster.dir/GlView.o: /home/cameron/Instrument-Trainer/src/GlView.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/GlView.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GlView.o -c /home/cameron/pianobooster-src-0.6.4/src/GlView.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/GlView.o -c /home/cameron/Instrument-Trainer/src/GlView.cpp
 
 CMakeFiles/pianobooster.dir/GlView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/GlView.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/GlView.cpp > CMakeFiles/pianobooster.dir/GlView.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/GlView.cpp > CMakeFiles/pianobooster.dir/GlView.i
 
 CMakeFiles/pianobooster.dir/GlView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/GlView.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/GlView.cpp -o CMakeFiles/pianobooster.dir/GlView.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/GlView.cpp -o CMakeFiles/pianobooster.dir/GlView.s
 
 CMakeFiles/pianobooster.dir/GlView.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/GlView.o.requires
@@ -290,18 +290,18 @@ CMakeFiles/pianobooster.dir/GlView.o.provides.build: CMakeFiles/pianobooster.dir
 .PHONY : CMakeFiles/pianobooster.dir/GlView.o.provides.build
 
 CMakeFiles/pianobooster.dir/MidiFile.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/MidiFile.o: /home/cameron/pianobooster-src-0.6.4/src/MidiFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_11)
+CMakeFiles/pianobooster.dir/MidiFile.o: /home/cameron/Instrument-Trainer/src/MidiFile.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/MidiFile.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiFile.o -c /home/cameron/pianobooster-src-0.6.4/src/MidiFile.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiFile.o -c /home/cameron/Instrument-Trainer/src/MidiFile.cpp
 
 CMakeFiles/pianobooster.dir/MidiFile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/MidiFile.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/MidiFile.cpp > CMakeFiles/pianobooster.dir/MidiFile.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/MidiFile.cpp > CMakeFiles/pianobooster.dir/MidiFile.i
 
 CMakeFiles/pianobooster.dir/MidiFile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/MidiFile.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/MidiFile.cpp -o CMakeFiles/pianobooster.dir/MidiFile.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/MidiFile.cpp -o CMakeFiles/pianobooster.dir/MidiFile.s
 
 CMakeFiles/pianobooster.dir/MidiFile.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/MidiFile.o.requires
@@ -314,18 +314,18 @@ CMakeFiles/pianobooster.dir/MidiFile.o.provides.build: CMakeFiles/pianobooster.d
 .PHONY : CMakeFiles/pianobooster.dir/MidiFile.o.provides.build
 
 CMakeFiles/pianobooster.dir/MidiTrack.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/MidiTrack.o: /home/cameron/pianobooster-src-0.6.4/src/MidiTrack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_12)
+CMakeFiles/pianobooster.dir/MidiTrack.o: /home/cameron/Instrument-Trainer/src/MidiTrack.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/MidiTrack.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiTrack.o -c /home/cameron/pianobooster-src-0.6.4/src/MidiTrack.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiTrack.o -c /home/cameron/Instrument-Trainer/src/MidiTrack.cpp
 
 CMakeFiles/pianobooster.dir/MidiTrack.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/MidiTrack.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/MidiTrack.cpp > CMakeFiles/pianobooster.dir/MidiTrack.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/MidiTrack.cpp > CMakeFiles/pianobooster.dir/MidiTrack.i
 
 CMakeFiles/pianobooster.dir/MidiTrack.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/MidiTrack.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/MidiTrack.cpp -o CMakeFiles/pianobooster.dir/MidiTrack.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/MidiTrack.cpp -o CMakeFiles/pianobooster.dir/MidiTrack.s
 
 CMakeFiles/pianobooster.dir/MidiTrack.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/MidiTrack.o.requires
@@ -338,18 +338,18 @@ CMakeFiles/pianobooster.dir/MidiTrack.o.provides.build: CMakeFiles/pianobooster.
 .PHONY : CMakeFiles/pianobooster.dir/MidiTrack.o.provides.build
 
 CMakeFiles/pianobooster.dir/Song.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Song.o: /home/cameron/pianobooster-src-0.6.4/src/Song.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_13)
+CMakeFiles/pianobooster.dir/Song.o: /home/cameron/Instrument-Trainer/src/Song.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Song.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Song.o -c /home/cameron/pianobooster-src-0.6.4/src/Song.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Song.o -c /home/cameron/Instrument-Trainer/src/Song.cpp
 
 CMakeFiles/pianobooster.dir/Song.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Song.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Song.cpp > CMakeFiles/pianobooster.dir/Song.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Song.cpp > CMakeFiles/pianobooster.dir/Song.i
 
 CMakeFiles/pianobooster.dir/Song.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Song.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Song.cpp -o CMakeFiles/pianobooster.dir/Song.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Song.cpp -o CMakeFiles/pianobooster.dir/Song.s
 
 CMakeFiles/pianobooster.dir/Song.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Song.o.requires
@@ -362,18 +362,18 @@ CMakeFiles/pianobooster.dir/Song.o.provides.build: CMakeFiles/pianobooster.dir/S
 .PHONY : CMakeFiles/pianobooster.dir/Song.o.provides.build
 
 CMakeFiles/pianobooster.dir/Conductor.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Conductor.o: /home/cameron/pianobooster-src-0.6.4/src/Conductor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_14)
+CMakeFiles/pianobooster.dir/Conductor.o: /home/cameron/Instrument-Trainer/src/Conductor.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Conductor.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Conductor.o -c /home/cameron/pianobooster-src-0.6.4/src/Conductor.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Conductor.o -c /home/cameron/Instrument-Trainer/src/Conductor.cpp
 
 CMakeFiles/pianobooster.dir/Conductor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Conductor.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Conductor.cpp > CMakeFiles/pianobooster.dir/Conductor.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Conductor.cpp > CMakeFiles/pianobooster.dir/Conductor.i
 
 CMakeFiles/pianobooster.dir/Conductor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Conductor.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Conductor.cpp -o CMakeFiles/pianobooster.dir/Conductor.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Conductor.cpp -o CMakeFiles/pianobooster.dir/Conductor.s
 
 CMakeFiles/pianobooster.dir/Conductor.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Conductor.o.requires
@@ -386,18 +386,18 @@ CMakeFiles/pianobooster.dir/Conductor.o.provides.build: CMakeFiles/pianobooster.
 .PHONY : CMakeFiles/pianobooster.dir/Conductor.o.provides.build
 
 CMakeFiles/pianobooster.dir/Util.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Util.o: /home/cameron/pianobooster-src-0.6.4/src/Util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_15)
+CMakeFiles/pianobooster.dir/Util.o: /home/cameron/Instrument-Trainer/src/Util.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Util.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Util.o -c /home/cameron/pianobooster-src-0.6.4/src/Util.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Util.o -c /home/cameron/Instrument-Trainer/src/Util.cpp
 
 CMakeFiles/pianobooster.dir/Util.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Util.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Util.cpp > CMakeFiles/pianobooster.dir/Util.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Util.cpp > CMakeFiles/pianobooster.dir/Util.i
 
 CMakeFiles/pianobooster.dir/Util.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Util.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Util.cpp -o CMakeFiles/pianobooster.dir/Util.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Util.cpp -o CMakeFiles/pianobooster.dir/Util.s
 
 CMakeFiles/pianobooster.dir/Util.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Util.o.requires
@@ -410,18 +410,18 @@ CMakeFiles/pianobooster.dir/Util.o.provides.build: CMakeFiles/pianobooster.dir/U
 .PHONY : CMakeFiles/pianobooster.dir/Util.o.provides.build
 
 CMakeFiles/pianobooster.dir/Chord.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Chord.o: /home/cameron/pianobooster-src-0.6.4/src/Chord.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_16)
+CMakeFiles/pianobooster.dir/Chord.o: /home/cameron/Instrument-Trainer/src/Chord.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Chord.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Chord.o -c /home/cameron/pianobooster-src-0.6.4/src/Chord.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Chord.o -c /home/cameron/Instrument-Trainer/src/Chord.cpp
 
 CMakeFiles/pianobooster.dir/Chord.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Chord.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Chord.cpp > CMakeFiles/pianobooster.dir/Chord.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Chord.cpp > CMakeFiles/pianobooster.dir/Chord.i
 
 CMakeFiles/pianobooster.dir/Chord.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Chord.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Chord.cpp -o CMakeFiles/pianobooster.dir/Chord.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Chord.cpp -o CMakeFiles/pianobooster.dir/Chord.s
 
 CMakeFiles/pianobooster.dir/Chord.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Chord.o.requires
@@ -434,18 +434,18 @@ CMakeFiles/pianobooster.dir/Chord.o.provides.build: CMakeFiles/pianobooster.dir/
 .PHONY : CMakeFiles/pianobooster.dir/Chord.o.provides.build
 
 CMakeFiles/pianobooster.dir/Tempo.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Tempo.o: /home/cameron/pianobooster-src-0.6.4/src/Tempo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_17)
+CMakeFiles/pianobooster.dir/Tempo.o: /home/cameron/Instrument-Trainer/src/Tempo.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Tempo.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Tempo.o -c /home/cameron/pianobooster-src-0.6.4/src/Tempo.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Tempo.o -c /home/cameron/Instrument-Trainer/src/Tempo.cpp
 
 CMakeFiles/pianobooster.dir/Tempo.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Tempo.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Tempo.cpp > CMakeFiles/pianobooster.dir/Tempo.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Tempo.cpp > CMakeFiles/pianobooster.dir/Tempo.i
 
 CMakeFiles/pianobooster.dir/Tempo.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Tempo.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Tempo.cpp -o CMakeFiles/pianobooster.dir/Tempo.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Tempo.cpp -o CMakeFiles/pianobooster.dir/Tempo.s
 
 CMakeFiles/pianobooster.dir/Tempo.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Tempo.o.requires
@@ -458,18 +458,18 @@ CMakeFiles/pianobooster.dir/Tempo.o.provides.build: CMakeFiles/pianobooster.dir/
 .PHONY : CMakeFiles/pianobooster.dir/Tempo.o.provides.build
 
 CMakeFiles/pianobooster.dir/MidiDevice.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/MidiDevice.o: /home/cameron/pianobooster-src-0.6.4/src/MidiDevice.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_18)
+CMakeFiles/pianobooster.dir/MidiDevice.o: /home/cameron/Instrument-Trainer/src/MidiDevice.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/MidiDevice.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiDevice.o -c /home/cameron/pianobooster-src-0.6.4/src/MidiDevice.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiDevice.o -c /home/cameron/Instrument-Trainer/src/MidiDevice.cpp
 
 CMakeFiles/pianobooster.dir/MidiDevice.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/MidiDevice.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/MidiDevice.cpp > CMakeFiles/pianobooster.dir/MidiDevice.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/MidiDevice.cpp > CMakeFiles/pianobooster.dir/MidiDevice.i
 
 CMakeFiles/pianobooster.dir/MidiDevice.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/MidiDevice.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/MidiDevice.cpp -o CMakeFiles/pianobooster.dir/MidiDevice.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/MidiDevice.cpp -o CMakeFiles/pianobooster.dir/MidiDevice.s
 
 CMakeFiles/pianobooster.dir/MidiDevice.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/MidiDevice.o.requires
@@ -482,18 +482,18 @@ CMakeFiles/pianobooster.dir/MidiDevice.o.provides.build: CMakeFiles/pianobooster
 .PHONY : CMakeFiles/pianobooster.dir/MidiDevice.o.provides.build
 
 CMakeFiles/pianobooster.dir/MidiDeviceRt.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/MidiDeviceRt.o: /home/cameron/pianobooster-src-0.6.4/src/MidiDeviceRt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_19)
+CMakeFiles/pianobooster.dir/MidiDeviceRt.o: /home/cameron/Instrument-Trainer/src/MidiDeviceRt.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/MidiDeviceRt.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiDeviceRt.o -c /home/cameron/pianobooster-src-0.6.4/src/MidiDeviceRt.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/MidiDeviceRt.o -c /home/cameron/Instrument-Trainer/src/MidiDeviceRt.cpp
 
 CMakeFiles/pianobooster.dir/MidiDeviceRt.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/MidiDeviceRt.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/MidiDeviceRt.cpp > CMakeFiles/pianobooster.dir/MidiDeviceRt.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/MidiDeviceRt.cpp > CMakeFiles/pianobooster.dir/MidiDeviceRt.i
 
 CMakeFiles/pianobooster.dir/MidiDeviceRt.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/MidiDeviceRt.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/MidiDeviceRt.cpp -o CMakeFiles/pianobooster.dir/MidiDeviceRt.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/MidiDeviceRt.cpp -o CMakeFiles/pianobooster.dir/MidiDeviceRt.s
 
 CMakeFiles/pianobooster.dir/MidiDeviceRt.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/MidiDeviceRt.o.requires
@@ -506,18 +506,18 @@ CMakeFiles/pianobooster.dir/MidiDeviceRt.o.provides.build: CMakeFiles/pianoboost
 .PHONY : CMakeFiles/pianobooster.dir/MidiDeviceRt.o.provides.build
 
 CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o: /home/cameron/pianobooster-src-0.6.4/src/rtmidi/RtMidi.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_20)
+CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o: /home/cameron/Instrument-Trainer/src/rtmidi/RtMidi.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o -c /home/cameron/pianobooster-src-0.6.4/src/rtmidi/RtMidi.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o -c /home/cameron/Instrument-Trainer/src/rtmidi/RtMidi.cpp
 
 CMakeFiles/pianobooster.dir/rtmidi/RtMidi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/rtmidi/RtMidi.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/rtmidi/RtMidi.cpp > CMakeFiles/pianobooster.dir/rtmidi/RtMidi.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/rtmidi/RtMidi.cpp > CMakeFiles/pianobooster.dir/rtmidi/RtMidi.i
 
 CMakeFiles/pianobooster.dir/rtmidi/RtMidi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/rtmidi/RtMidi.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/rtmidi/RtMidi.cpp -o CMakeFiles/pianobooster.dir/rtmidi/RtMidi.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/rtmidi/RtMidi.cpp -o CMakeFiles/pianobooster.dir/rtmidi/RtMidi.s
 
 CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o.requires
@@ -530,18 +530,18 @@ CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o.provides.build: CMakeFiles/pianoboos
 .PHONY : CMakeFiles/pianobooster.dir/rtmidi/RtMidi.o.provides.build
 
 CMakeFiles/pianobooster.dir/StavePosition.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/StavePosition.o: /home/cameron/pianobooster-src-0.6.4/src/StavePosition.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_21)
+CMakeFiles/pianobooster.dir/StavePosition.o: /home/cameron/Instrument-Trainer/src/StavePosition.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/StavePosition.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/StavePosition.o -c /home/cameron/pianobooster-src-0.6.4/src/StavePosition.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/StavePosition.o -c /home/cameron/Instrument-Trainer/src/StavePosition.cpp
 
 CMakeFiles/pianobooster.dir/StavePosition.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/StavePosition.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/StavePosition.cpp > CMakeFiles/pianobooster.dir/StavePosition.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/StavePosition.cpp > CMakeFiles/pianobooster.dir/StavePosition.i
 
 CMakeFiles/pianobooster.dir/StavePosition.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/StavePosition.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/StavePosition.cpp -o CMakeFiles/pianobooster.dir/StavePosition.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/StavePosition.cpp -o CMakeFiles/pianobooster.dir/StavePosition.s
 
 CMakeFiles/pianobooster.dir/StavePosition.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/StavePosition.o.requires
@@ -554,18 +554,18 @@ CMakeFiles/pianobooster.dir/StavePosition.o.provides.build: CMakeFiles/pianoboos
 .PHONY : CMakeFiles/pianobooster.dir/StavePosition.o.provides.build
 
 CMakeFiles/pianobooster.dir/Score.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Score.o: /home/cameron/pianobooster-src-0.6.4/src/Score.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_22)
+CMakeFiles/pianobooster.dir/Score.o: /home/cameron/Instrument-Trainer/src/Score.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Score.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Score.o -c /home/cameron/pianobooster-src-0.6.4/src/Score.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Score.o -c /home/cameron/Instrument-Trainer/src/Score.cpp
 
 CMakeFiles/pianobooster.dir/Score.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Score.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Score.cpp > CMakeFiles/pianobooster.dir/Score.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Score.cpp > CMakeFiles/pianobooster.dir/Score.i
 
 CMakeFiles/pianobooster.dir/Score.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Score.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Score.cpp -o CMakeFiles/pianobooster.dir/Score.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Score.cpp -o CMakeFiles/pianobooster.dir/Score.s
 
 CMakeFiles/pianobooster.dir/Score.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Score.o.requires
@@ -578,18 +578,18 @@ CMakeFiles/pianobooster.dir/Score.o.provides.build: CMakeFiles/pianobooster.dir/
 .PHONY : CMakeFiles/pianobooster.dir/Score.o.provides.build
 
 CMakeFiles/pianobooster.dir/Cfg.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Cfg.o: /home/cameron/pianobooster-src-0.6.4/src/Cfg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_23)
+CMakeFiles/pianobooster.dir/Cfg.o: /home/cameron/Instrument-Trainer/src/Cfg.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Cfg.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Cfg.o -c /home/cameron/pianobooster-src-0.6.4/src/Cfg.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Cfg.o -c /home/cameron/Instrument-Trainer/src/Cfg.cpp
 
 CMakeFiles/pianobooster.dir/Cfg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Cfg.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Cfg.cpp > CMakeFiles/pianobooster.dir/Cfg.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Cfg.cpp > CMakeFiles/pianobooster.dir/Cfg.i
 
 CMakeFiles/pianobooster.dir/Cfg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Cfg.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Cfg.cpp -o CMakeFiles/pianobooster.dir/Cfg.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Cfg.cpp -o CMakeFiles/pianobooster.dir/Cfg.s
 
 CMakeFiles/pianobooster.dir/Cfg.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Cfg.o.requires
@@ -602,18 +602,18 @@ CMakeFiles/pianobooster.dir/Cfg.o.provides.build: CMakeFiles/pianobooster.dir/Cf
 .PHONY : CMakeFiles/pianobooster.dir/Cfg.o.provides.build
 
 CMakeFiles/pianobooster.dir/Piano.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Piano.o: /home/cameron/pianobooster-src-0.6.4/src/Piano.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_24)
+CMakeFiles/pianobooster.dir/Piano.o: /home/cameron/Instrument-Trainer/src/Piano.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Piano.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Piano.o -c /home/cameron/pianobooster-src-0.6.4/src/Piano.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Piano.o -c /home/cameron/Instrument-Trainer/src/Piano.cpp
 
 CMakeFiles/pianobooster.dir/Piano.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Piano.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Piano.cpp > CMakeFiles/pianobooster.dir/Piano.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Piano.cpp > CMakeFiles/pianobooster.dir/Piano.i
 
 CMakeFiles/pianobooster.dir/Piano.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Piano.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Piano.cpp -o CMakeFiles/pianobooster.dir/Piano.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Piano.cpp -o CMakeFiles/pianobooster.dir/Piano.s
 
 CMakeFiles/pianobooster.dir/Piano.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Piano.o.requires
@@ -626,18 +626,18 @@ CMakeFiles/pianobooster.dir/Piano.o.provides.build: CMakeFiles/pianobooster.dir/
 .PHONY : CMakeFiles/pianobooster.dir/Piano.o.provides.build
 
 CMakeFiles/pianobooster.dir/Draw.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Draw.o: /home/cameron/pianobooster-src-0.6.4/src/Draw.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_25)
+CMakeFiles/pianobooster.dir/Draw.o: /home/cameron/Instrument-Trainer/src/Draw.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Draw.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Draw.o -c /home/cameron/pianobooster-src-0.6.4/src/Draw.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Draw.o -c /home/cameron/Instrument-Trainer/src/Draw.cpp
 
 CMakeFiles/pianobooster.dir/Draw.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Draw.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Draw.cpp > CMakeFiles/pianobooster.dir/Draw.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Draw.cpp > CMakeFiles/pianobooster.dir/Draw.i
 
 CMakeFiles/pianobooster.dir/Draw.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Draw.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Draw.cpp -o CMakeFiles/pianobooster.dir/Draw.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Draw.cpp -o CMakeFiles/pianobooster.dir/Draw.s
 
 CMakeFiles/pianobooster.dir/Draw.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Draw.o.requires
@@ -650,18 +650,18 @@ CMakeFiles/pianobooster.dir/Draw.o.provides.build: CMakeFiles/pianobooster.dir/D
 .PHONY : CMakeFiles/pianobooster.dir/Draw.o.provides.build
 
 CMakeFiles/pianobooster.dir/Scroll.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Scroll.o: /home/cameron/pianobooster-src-0.6.4/src/Scroll.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_26)
+CMakeFiles/pianobooster.dir/Scroll.o: /home/cameron/Instrument-Trainer/src/Scroll.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Scroll.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Scroll.o -c /home/cameron/pianobooster-src-0.6.4/src/Scroll.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Scroll.o -c /home/cameron/Instrument-Trainer/src/Scroll.cpp
 
 CMakeFiles/pianobooster.dir/Scroll.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Scroll.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Scroll.cpp > CMakeFiles/pianobooster.dir/Scroll.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Scroll.cpp > CMakeFiles/pianobooster.dir/Scroll.i
 
 CMakeFiles/pianobooster.dir/Scroll.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Scroll.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Scroll.cpp -o CMakeFiles/pianobooster.dir/Scroll.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Scroll.cpp -o CMakeFiles/pianobooster.dir/Scroll.s
 
 CMakeFiles/pianobooster.dir/Scroll.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Scroll.o.requires
@@ -674,18 +674,18 @@ CMakeFiles/pianobooster.dir/Scroll.o.provides.build: CMakeFiles/pianobooster.dir
 .PHONY : CMakeFiles/pianobooster.dir/Scroll.o.provides.build
 
 CMakeFiles/pianobooster.dir/Notation.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Notation.o: /home/cameron/pianobooster-src-0.6.4/src/Notation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_27)
+CMakeFiles/pianobooster.dir/Notation.o: /home/cameron/Instrument-Trainer/src/Notation.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Notation.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Notation.o -c /home/cameron/pianobooster-src-0.6.4/src/Notation.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Notation.o -c /home/cameron/Instrument-Trainer/src/Notation.cpp
 
 CMakeFiles/pianobooster.dir/Notation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Notation.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Notation.cpp > CMakeFiles/pianobooster.dir/Notation.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Notation.cpp > CMakeFiles/pianobooster.dir/Notation.i
 
 CMakeFiles/pianobooster.dir/Notation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Notation.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Notation.cpp -o CMakeFiles/pianobooster.dir/Notation.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Notation.cpp -o CMakeFiles/pianobooster.dir/Notation.s
 
 CMakeFiles/pianobooster.dir/Notation.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Notation.o.requires
@@ -698,18 +698,18 @@ CMakeFiles/pianobooster.dir/Notation.o.provides.build: CMakeFiles/pianobooster.d
 .PHONY : CMakeFiles/pianobooster.dir/Notation.o.provides.build
 
 CMakeFiles/pianobooster.dir/TrackList.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/TrackList.o: /home/cameron/pianobooster-src-0.6.4/src/TrackList.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_28)
+CMakeFiles/pianobooster.dir/TrackList.o: /home/cameron/Instrument-Trainer/src/TrackList.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/TrackList.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/TrackList.o -c /home/cameron/pianobooster-src-0.6.4/src/TrackList.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/TrackList.o -c /home/cameron/Instrument-Trainer/src/TrackList.cpp
 
 CMakeFiles/pianobooster.dir/TrackList.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/TrackList.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/TrackList.cpp > CMakeFiles/pianobooster.dir/TrackList.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/TrackList.cpp > CMakeFiles/pianobooster.dir/TrackList.i
 
 CMakeFiles/pianobooster.dir/TrackList.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/TrackList.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/TrackList.cpp -o CMakeFiles/pianobooster.dir/TrackList.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/TrackList.cpp -o CMakeFiles/pianobooster.dir/TrackList.s
 
 CMakeFiles/pianobooster.dir/TrackList.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/TrackList.o.requires
@@ -722,18 +722,18 @@ CMakeFiles/pianobooster.dir/TrackList.o.provides.build: CMakeFiles/pianobooster.
 .PHONY : CMakeFiles/pianobooster.dir/TrackList.o.provides.build
 
 CMakeFiles/pianobooster.dir/Rating.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Rating.o: /home/cameron/pianobooster-src-0.6.4/src/Rating.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_29)
+CMakeFiles/pianobooster.dir/Rating.o: /home/cameron/Instrument-Trainer/src/Rating.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Rating.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Rating.o -c /home/cameron/pianobooster-src-0.6.4/src/Rating.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Rating.o -c /home/cameron/Instrument-Trainer/src/Rating.cpp
 
 CMakeFiles/pianobooster.dir/Rating.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Rating.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Rating.cpp > CMakeFiles/pianobooster.dir/Rating.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Rating.cpp > CMakeFiles/pianobooster.dir/Rating.i
 
 CMakeFiles/pianobooster.dir/Rating.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Rating.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Rating.cpp -o CMakeFiles/pianobooster.dir/Rating.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Rating.cpp -o CMakeFiles/pianobooster.dir/Rating.s
 
 CMakeFiles/pianobooster.dir/Rating.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Rating.o.requires
@@ -746,18 +746,18 @@ CMakeFiles/pianobooster.dir/Rating.o.provides.build: CMakeFiles/pianobooster.dir
 .PHONY : CMakeFiles/pianobooster.dir/Rating.o.provides.build
 
 CMakeFiles/pianobooster.dir/Bar.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Bar.o: /home/cameron/pianobooster-src-0.6.4/src/Bar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_30)
+CMakeFiles/pianobooster.dir/Bar.o: /home/cameron/Instrument-Trainer/src/Bar.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Bar.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Bar.o -c /home/cameron/pianobooster-src-0.6.4/src/Bar.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Bar.o -c /home/cameron/Instrument-Trainer/src/Bar.cpp
 
 CMakeFiles/pianobooster.dir/Bar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Bar.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Bar.cpp > CMakeFiles/pianobooster.dir/Bar.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Bar.cpp > CMakeFiles/pianobooster.dir/Bar.i
 
 CMakeFiles/pianobooster.dir/Bar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Bar.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Bar.cpp -o CMakeFiles/pianobooster.dir/Bar.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Bar.cpp -o CMakeFiles/pianobooster.dir/Bar.s
 
 CMakeFiles/pianobooster.dir/Bar.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Bar.o.requires
@@ -770,18 +770,18 @@ CMakeFiles/pianobooster.dir/Bar.o.provides.build: CMakeFiles/pianobooster.dir/Ba
 .PHONY : CMakeFiles/pianobooster.dir/Bar.o.provides.build
 
 CMakeFiles/pianobooster.dir/Settings.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Settings.o: /home/cameron/pianobooster-src-0.6.4/src/Settings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_31)
+CMakeFiles/pianobooster.dir/Settings.o: /home/cameron/Instrument-Trainer/src/Settings.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Settings.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Settings.o -c /home/cameron/pianobooster-src-0.6.4/src/Settings.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Settings.o -c /home/cameron/Instrument-Trainer/src/Settings.cpp
 
 CMakeFiles/pianobooster.dir/Settings.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Settings.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Settings.cpp > CMakeFiles/pianobooster.dir/Settings.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Settings.cpp > CMakeFiles/pianobooster.dir/Settings.i
 
 CMakeFiles/pianobooster.dir/Settings.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Settings.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Settings.cpp -o CMakeFiles/pianobooster.dir/Settings.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Settings.cpp -o CMakeFiles/pianobooster.dir/Settings.s
 
 CMakeFiles/pianobooster.dir/Settings.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Settings.o.requires
@@ -794,18 +794,18 @@ CMakeFiles/pianobooster.dir/Settings.o.provides.build: CMakeFiles/pianobooster.d
 .PHONY : CMakeFiles/pianobooster.dir/Settings.o.provides.build
 
 CMakeFiles/pianobooster.dir/Merge.o: CMakeFiles/pianobooster.dir/flags.make
-CMakeFiles/pianobooster.dir/Merge.o: /home/cameron/pianobooster-src-0.6.4/src/Merge.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_32)
+CMakeFiles/pianobooster.dir/Merge.o: /home/cameron/Instrument-Trainer/src/Merge.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/Merge.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Merge.o -c /home/cameron/pianobooster-src-0.6.4/src/Merge.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/Merge.o -c /home/cameron/Instrument-Trainer/src/Merge.cpp
 
 CMakeFiles/pianobooster.dir/Merge.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/Merge.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/src/Merge.cpp > CMakeFiles/pianobooster.dir/Merge.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/src/Merge.cpp > CMakeFiles/pianobooster.dir/Merge.i
 
 CMakeFiles/pianobooster.dir/Merge.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/Merge.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/src/Merge.cpp -o CMakeFiles/pianobooster.dir/Merge.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/src/Merge.cpp -o CMakeFiles/pianobooster.dir/Merge.s
 
 CMakeFiles/pianobooster.dir/Merge.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/Merge.o.requires
@@ -819,17 +819,17 @@ CMakeFiles/pianobooster.dir/Merge.o.provides.build: CMakeFiles/pianobooster.dir/
 
 CMakeFiles/pianobooster.dir/moc_QtWindow.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_QtWindow.o: moc_QtWindow.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_QtWindow.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_QtWindow.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_QtWindow.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_QtWindow.o -c /home/cameron/Instrument-Trainer/build/moc_QtWindow.cxx
 
 CMakeFiles/pianobooster.dir/moc_QtWindow.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_QtWindow.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_QtWindow.cxx > CMakeFiles/pianobooster.dir/moc_QtWindow.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_QtWindow.cxx > CMakeFiles/pianobooster.dir/moc_QtWindow.i
 
 CMakeFiles/pianobooster.dir/moc_QtWindow.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_QtWindow.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_QtWindow.cxx -o CMakeFiles/pianobooster.dir/moc_QtWindow.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_QtWindow.cxx -o CMakeFiles/pianobooster.dir/moc_QtWindow.s
 
 CMakeFiles/pianobooster.dir/moc_QtWindow.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_QtWindow.o.requires
@@ -843,17 +843,17 @@ CMakeFiles/pianobooster.dir/moc_QtWindow.o.provides.build: CMakeFiles/pianoboost
 
 CMakeFiles/pianobooster.dir/moc_GlView.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GlView.o: moc_GlView.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GlView.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GlView.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GlView.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GlView.o -c /home/cameron/Instrument-Trainer/build/moc_GlView.cxx
 
 CMakeFiles/pianobooster.dir/moc_GlView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GlView.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GlView.cxx > CMakeFiles/pianobooster.dir/moc_GlView.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GlView.cxx > CMakeFiles/pianobooster.dir/moc_GlView.i
 
 CMakeFiles/pianobooster.dir/moc_GlView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GlView.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GlView.cxx -o CMakeFiles/pianobooster.dir/moc_GlView.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GlView.cxx -o CMakeFiles/pianobooster.dir/moc_GlView.s
 
 CMakeFiles/pianobooster.dir/moc_GlView.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GlView.o.requires
@@ -867,17 +867,17 @@ CMakeFiles/pianobooster.dir/moc_GlView.o.provides.build: CMakeFiles/pianobooster
 
 CMakeFiles/pianobooster.dir/moc_GuiTopBar.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiTopBar.o: moc_GuiTopBar.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiTopBar.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiTopBar.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiTopBar.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiTopBar.o -c /home/cameron/Instrument-Trainer/build/moc_GuiTopBar.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiTopBar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiTopBar.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiTopBar.cxx > CMakeFiles/pianobooster.dir/moc_GuiTopBar.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiTopBar.cxx > CMakeFiles/pianobooster.dir/moc_GuiTopBar.i
 
 CMakeFiles/pianobooster.dir/moc_GuiTopBar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiTopBar.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiTopBar.cxx -o CMakeFiles/pianobooster.dir/moc_GuiTopBar.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiTopBar.cxx -o CMakeFiles/pianobooster.dir/moc_GuiTopBar.s
 
 CMakeFiles/pianobooster.dir/moc_GuiTopBar.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiTopBar.o.requires
@@ -891,17 +891,17 @@ CMakeFiles/pianobooster.dir/moc_GuiTopBar.o.provides.build: CMakeFiles/pianoboos
 
 CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o: moc_GuiSidePanel.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSidePanel.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o -c /home/cameron/Instrument-Trainer/build/moc_GuiSidePanel.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiSidePanel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiSidePanel.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSidePanel.cxx > CMakeFiles/pianobooster.dir/moc_GuiSidePanel.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiSidePanel.cxx > CMakeFiles/pianobooster.dir/moc_GuiSidePanel.i
 
 CMakeFiles/pianobooster.dir/moc_GuiSidePanel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiSidePanel.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSidePanel.cxx -o CMakeFiles/pianobooster.dir/moc_GuiSidePanel.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiSidePanel.cxx -o CMakeFiles/pianobooster.dir/moc_GuiSidePanel.s
 
 CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o.requires
@@ -915,17 +915,17 @@ CMakeFiles/pianobooster.dir/moc_GuiSidePanel.o.provides.build: CMakeFiles/pianob
 
 CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o: moc_GuiMidiSetupDialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiMidiSetupDialog.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o -c /home/cameron/Instrument-Trainer/build/moc_GuiMidiSetupDialog.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiMidiSetupDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiMidiSetupDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.i
 
 CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiMidiSetupDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiMidiSetupDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.s
 
 CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o.requires
@@ -939,17 +939,17 @@ CMakeFiles/pianobooster.dir/moc_GuiMidiSetupDialog.o.provides.build: CMakeFiles/
 
 CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o: moc_GuiKeyboardSetupDialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiKeyboardSetupDialog.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o -c /home/cameron/Instrument-Trainer/build/moc_GuiKeyboardSetupDialog.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiKeyboardSetupDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiKeyboardSetupDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.i
 
 CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiKeyboardSetupDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiKeyboardSetupDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.s
 
 CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o.requires
@@ -963,17 +963,17 @@ CMakeFiles/pianobooster.dir/moc_GuiKeyboardSetupDialog.o.provides.build: CMakeFi
 
 CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o: moc_GuiPreferencesDialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiPreferencesDialog.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o -c /home/cameron/Instrument-Trainer/build/moc_GuiPreferencesDialog.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiPreferencesDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiPreferencesDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.i
 
 CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiPreferencesDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiPreferencesDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.s
 
 CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o.requires
@@ -987,17 +987,17 @@ CMakeFiles/pianobooster.dir/moc_GuiPreferencesDialog.o.provides.build: CMakeFile
 
 CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o: moc_GuiSongDetailsDialog.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSongDetailsDialog.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o -c /home/cameron/Instrument-Trainer/build/moc_GuiSongDetailsDialog.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSongDetailsDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiSongDetailsDialog.cxx > CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.i
 
 CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSongDetailsDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiSongDetailsDialog.cxx -o CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.s
 
 CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o.requires
@@ -1011,17 +1011,17 @@ CMakeFiles/pianobooster.dir/moc_GuiSongDetailsDialog.o.provides.build: CMakeFile
 
 CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o: moc_GuiLoopingPopup.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o -c /home/cameron/pianobooster-src-0.6.4/build/moc_GuiLoopingPopup.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o -c /home/cameron/Instrument-Trainer/build/moc_GuiLoopingPopup.cxx
 
 CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/moc_GuiLoopingPopup.cxx > CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/moc_GuiLoopingPopup.cxx > CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.i
 
 CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/moc_GuiLoopingPopup.cxx -o CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/moc_GuiLoopingPopup.cxx -o CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.s
 
 CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o.requires
@@ -1035,17 +1035,17 @@ CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o.provides.build: CMakeFiles/pia
 
 CMakeFiles/pianobooster.dir/qrc_application.o: CMakeFiles/pianobooster.dir/flags.make
 CMakeFiles/pianobooster.dir/qrc_application.o: qrc_application.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pianobooster.dir/qrc_application.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/qrc_application.o -c /home/cameron/pianobooster-src-0.6.4/build/qrc_application.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pianobooster.dir/qrc_application.o -c /home/cameron/Instrument-Trainer/build/qrc_application.cxx
 
 CMakeFiles/pianobooster.dir/qrc_application.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pianobooster.dir/qrc_application.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/pianobooster-src-0.6.4/build/qrc_application.cxx > CMakeFiles/pianobooster.dir/qrc_application.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cameron/Instrument-Trainer/build/qrc_application.cxx > CMakeFiles/pianobooster.dir/qrc_application.i
 
 CMakeFiles/pianobooster.dir/qrc_application.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pianobooster.dir/qrc_application.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/pianobooster-src-0.6.4/build/qrc_application.cxx -o CMakeFiles/pianobooster.dir/qrc_application.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cameron/Instrument-Trainer/build/qrc_application.cxx -o CMakeFiles/pianobooster.dir/qrc_application.s
 
 CMakeFiles/pianobooster.dir/qrc_application.o.requires:
 .PHONY : CMakeFiles/pianobooster.dir/qrc_application.o.requires
@@ -1057,101 +1057,101 @@ CMakeFiles/pianobooster.dir/qrc_application.o.provides: CMakeFiles/pianobooster.
 CMakeFiles/pianobooster.dir/qrc_application.o.provides.build: CMakeFiles/pianobooster.dir/qrc_application.o
 .PHONY : CMakeFiles/pianobooster.dir/qrc_application.o.provides.build
 
-moc_QtWindow.cxx: /home/cameron/pianobooster-src-0.6.4/src/QtWindow.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_43)
+moc_QtWindow.cxx: /home/cameron/Instrument-Trainer/src/QtWindow.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_QtWindow.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_QtWindow.cxx /home/cameron/pianobooster-src-0.6.4/src/QtWindow.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_QtWindow.cxx /home/cameron/Instrument-Trainer/src/QtWindow.h
 
-moc_GlView.cxx: /home/cameron/pianobooster-src-0.6.4/src/GlView.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_44)
+moc_GlView.cxx: /home/cameron/Instrument-Trainer/src/GlView.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GlView.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GlView.cxx /home/cameron/pianobooster-src-0.6.4/src/GlView.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GlView.cxx /home/cameron/Instrument-Trainer/src/GlView.h
 
-moc_GuiTopBar.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_45)
+moc_GuiTopBar.cxx: /home/cameron/Instrument-Trainer/src/GuiTopBar.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiTopBar.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiTopBar.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiTopBar.cxx /home/cameron/Instrument-Trainer/src/GuiTopBar.h
 
-moc_GuiSidePanel.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_46)
+moc_GuiSidePanel.cxx: /home/cameron/Instrument-Trainer/src/GuiSidePanel.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiSidePanel.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSidePanel.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiSidePanel.cxx /home/cameron/Instrument-Trainer/src/GuiSidePanel.h
 
-moc_GuiMidiSetupDialog.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_47)
+moc_GuiMidiSetupDialog.cxx: /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiMidiSetupDialog.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiMidiSetupDialog.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiMidiSetupDialog.cxx /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.h
 
-moc_GuiKeyboardSetupDialog.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_48)
+moc_GuiKeyboardSetupDialog.cxx: /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiKeyboardSetupDialog.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiKeyboardSetupDialog.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiKeyboardSetupDialog.cxx /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.h
 
-moc_GuiPreferencesDialog.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_49)
+moc_GuiPreferencesDialog.cxx: /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiPreferencesDialog.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiPreferencesDialog.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiPreferencesDialog.cxx /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.h
 
-moc_GuiSongDetailsDialog.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_50)
+moc_GuiSongDetailsDialog.cxx: /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiSongDetailsDialog.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiSongDetailsDialog.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiSongDetailsDialog.cxx /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.h
 
-moc_GuiLoopingPopup.cxx: /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_51)
+moc_GuiLoopingPopup.cxx: /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.h
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_GuiLoopingPopup.cxx"
-	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/pianobooster-src-0.6.4/build -I/usr/include -DQT_DLL -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/pianobooster-src-0.6.4/build/moc_GuiLoopingPopup.cxx /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.h
+	/usr/bin/moc -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtXml -I/usr/include/qt4/QtCore -I/home/cameron/Instrument-Trainer/build -I/usr/include -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB -D__LINUX_ALSASEQ__ -o /home/cameron/Instrument-Trainer/build/moc_GuiLoopingPopup.cxx /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.h
 
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/Logo32x32.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/copy.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/cut.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/flag.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/new.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/open.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/paste.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/play-from-start.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/play.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/save.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/images/stop.png
-qrc_application.cxx: /home/cameron/pianobooster-src-0.6.4/src/application.qrc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_52)
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/Logo32x32.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/copy.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/cut.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/flag.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/new.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/open.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/paste.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/play-from-start.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/play.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/save.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/images/stop.png
+qrc_application.cxx: /home/cameron/Instrument-Trainer/src/application.qrc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_application.cxx"
-	/usr/bin/rcc -name application -o /home/cameron/pianobooster-src-0.6.4/build/qrc_application.cxx /home/cameron/pianobooster-src-0.6.4/src/application.qrc
+	/usr/bin/rcc -name application -o /home/cameron/Instrument-Trainer/build/qrc_application.cxx /home/cameron/Instrument-Trainer/src/application.qrc
 
-ui_GuiTopBar.h: /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_53)
+ui_GuiTopBar.h: /home/cameron/Instrument-Trainer/src/GuiTopBar.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiTopBar.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiTopBar.h /home/cameron/pianobooster-src-0.6.4/src/GuiTopBar.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiTopBar.h /home/cameron/Instrument-Trainer/src/GuiTopBar.ui
 
-ui_GuiSidePanel.h: /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_54)
+ui_GuiSidePanel.h: /home/cameron/Instrument-Trainer/src/GuiSidePanel.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiSidePanel.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiSidePanel.h /home/cameron/pianobooster-src-0.6.4/src/GuiSidePanel.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiSidePanel.h /home/cameron/Instrument-Trainer/src/GuiSidePanel.ui
 
-ui_GuiMidiSetupDialog.h: /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_55)
+ui_GuiMidiSetupDialog.h: /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiMidiSetupDialog.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiMidiSetupDialog.h /home/cameron/pianobooster-src-0.6.4/src/GuiMidiSetupDialog.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiMidiSetupDialog.h /home/cameron/Instrument-Trainer/src/GuiMidiSetupDialog.ui
 
-ui_GuiKeyboardSetupDialog.h: /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_56)
+ui_GuiKeyboardSetupDialog.h: /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiKeyboardSetupDialog.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiKeyboardSetupDialog.h /home/cameron/pianobooster-src-0.6.4/src/GuiKeyboardSetupDialog.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiKeyboardSetupDialog.h /home/cameron/Instrument-Trainer/src/GuiKeyboardSetupDialog.ui
 
-ui_GuiPreferencesDialog.h: /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_57)
+ui_GuiPreferencesDialog.h: /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiPreferencesDialog.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiPreferencesDialog.h /home/cameron/pianobooster-src-0.6.4/src/GuiPreferencesDialog.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiPreferencesDialog.h /home/cameron/Instrument-Trainer/src/GuiPreferencesDialog.ui
 
-ui_GuiSongDetailsDialog.h: /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_58)
+ui_GuiSongDetailsDialog.h: /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiSongDetailsDialog.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiSongDetailsDialog.h /home/cameron/pianobooster-src-0.6.4/src/GuiSongDetailsDialog.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiSongDetailsDialog.h /home/cameron/Instrument-Trainer/src/GuiSongDetailsDialog.ui
 
-ui_GuiLoopingPopup.h: /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles $(CMAKE_PROGRESS_59)
+ui_GuiLoopingPopup.h: /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/cameron/Instrument-Trainer/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_GuiLoopingPopup.h"
-	/usr/bin/uic -o /home/cameron/pianobooster-src-0.6.4/build/ui_GuiLoopingPopup.h /home/cameron/pianobooster-src-0.6.4/src/GuiLoopingPopup.ui
+	/usr/bin/uic -o /home/cameron/Instrument-Trainer/build/ui_GuiLoopingPopup.h /home/cameron/Instrument-Trainer/src/GuiLoopingPopup.ui
 
 # Object files for target pianobooster
 pianobooster_OBJECTS = \
@@ -1245,26 +1245,8 @@ pianobooster: CMakeFiles/pianobooster.dir/moc_GuiLoopingPopup.o
 pianobooster: CMakeFiles/pianobooster.dir/qrc_application.o
 pianobooster: /usr/lib/qt4/libQtOpenGL.so
 pianobooster: /usr/lib/qt4/libQtGui.so
-pianobooster: /usr/lib/libpng.so
-pianobooster: /usr/lib/libSM.so
-pianobooster: /usr/lib/libICE.so
-pianobooster: /usr/lib/libXrender.so
-pianobooster: /usr/lib/libXrandr.so
-pianobooster: /usr/lib/libXcursor.so
-pianobooster: /usr/lib/libXinerama.so
-pianobooster: /usr/lib/libXfixes.so
-pianobooster: /usr/lib/libfreetype.so
-pianobooster: /usr/lib/libfontconfig.so
-pianobooster: /usr/lib/libXext.so
-pianobooster: /usr/lib/libX11.so
-pianobooster: /usr/lib/libm.so
 pianobooster: /usr/lib/qt4/libQtXml.so
 pianobooster: /usr/lib/qt4/libQtCore.so
-pianobooster: /lib/libz.so
-pianobooster: /usr/lib/libgthread-2.0.so
-pianobooster: /usr/lib/libglib-2.0.so
-pianobooster: /usr/lib/libgobject-2.0.so
-pianobooster: /usr/lib/librt.so
 pianobooster: CMakeFiles/pianobooster.dir/build.make
 pianobooster: CMakeFiles/pianobooster.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable pianobooster"
@@ -1339,6 +1321,6 @@ CMakeFiles/pianobooster.dir/depend: ui_GuiKeyboardSetupDialog.h
 CMakeFiles/pianobooster.dir/depend: ui_GuiPreferencesDialog.h
 CMakeFiles/pianobooster.dir/depend: ui_GuiSongDetailsDialog.h
 CMakeFiles/pianobooster.dir/depend: ui_GuiLoopingPopup.h
-	cd /home/cameron/pianobooster-src-0.6.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cameron/pianobooster-src-0.6.4/src /home/cameron/pianobooster-src-0.6.4/src /home/cameron/pianobooster-src-0.6.4/build /home/cameron/pianobooster-src-0.6.4/build /home/cameron/pianobooster-src-0.6.4/build/CMakeFiles/pianobooster.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cameron/Instrument-Trainer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cameron/Instrument-Trainer/src /home/cameron/Instrument-Trainer/src /home/cameron/Instrument-Trainer/build /home/cameron/Instrument-Trainer/build /home/cameron/Instrument-Trainer/build/CMakeFiles/pianobooster.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pianobooster.dir/depend
 
