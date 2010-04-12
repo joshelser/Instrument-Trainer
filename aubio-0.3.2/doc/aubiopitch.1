@@ -1,0 +1,84 @@
+.TH "AUBIOPITCH" "1" 
+.SH "NAME" 
+aubiopitch \(em a command line tool to extract pitch candidates from sound files. 
+.SH "SYNOPSIS" 
+.PP 
+\fBaubiopitch \fB[options] \-i soundfile\fR\fR 
+.SH "DESCRIPTION" 
+.PP 
+\fBaubiopitch\fR attempts to extract fundamental 
+frequency in sound files. When no pitch candidate is found, the output is 
+0. Five fundamental frequency extraction methods are available. Results can 
+be printed in Hertz or in MIDI pitch. 
+.PP 
+A plotting module is available via the Gnuplot Python package. 
+.SH "OPTIONS" 
+.PP 
+This program follows the usual GNU command line syntax, with long 
+options starting with two dashes (`\-').  A summary of options is included 
+below. 
+.IP "\fB-i\fP   \fB\-\-input filein\fP" 10 
+input sound file 
+.IP "\fB-m\fP   \fB\-\-mode pitch_detection_mode\fP" 10 
+pitch detection mode [default=mcomb] mcomb|yin|fcomb|schmitt 
+.IP "\fB-u\fP   \fB\-\-units unitmode\fP" 10 
+output pitch in units [default=Hz] freq|midi|cent|bin 
+.IP "\fB-B\fP   \fB\-\-bufsize=BUFSIZE\fP" 10 
+buffer size [default=1024] 
+.IP "\fB-H\fP   \fB\-\-hopsize=HOPSIZE\fP" 10 
+overlap size [default=512] 
+.IP "\fB-t\fP   \fB\-\-threshold=THRESHOLD\fP" 10 
+pitch threshold (for yin) [default=0.1] 
+.IP "\fB-s\fP   \fB\-\-silence=SILENCE\fP" 10 
+silence threshold [default=\-70] 
+.IP "\fB-D\fP   \fB\-\-delay=DELAY\fP" 10 
+number of seconds to take back [default=0] 
+.IP "\fB-S\fP   \fB\-\-smoothing=frames\fP" 10 
+temporal smoothing using a median filter of N frames [default=0] 
+.IP "\fB-M\fP   \fB\-\-pitchmax=max\fP" 10 
+maximum pitch values to look for (Hz) [default=20000] 
+.IP "\fB-l\fP   \fB\-\-pitchmin=min\fP" 10 
+minimum pitch values to look for (Hz) [default=20] 
+.IP "\fB-n\fP   \fB\-\-note\fP" 10 
+NOT IMPLEMENTED output notes 
+.IP "\fB-q\fP   \fB\-\-quiet\fP" 10 
+be quiet 
+.IP "\fB-h\fP   \fB\-\-help\fP" 10 
+Show a summary of options. 
+.IP "\fB-v\fP   \fB\-\-verbose\fP" 10 
+make lots of noise [default] 
+.SS "Plotting options" 
+.PP 
+When the Python interface to Gnuplot is installed, the following 
+additional options are available. 
+.IP "\fB-p\fP   \fB\-\-plot\fP" 10 
+draw plot of the pitch track 
+.IP "\fB-T\fP   \fB\-\-plottruth\fP" 10 
+draw plot of the ground truth pitch track 
+.IP "\fB-x\fP   \fB\-\-xsize=SIZE\fP" 10 
+define horizontal plot size [default=1.] 
+.IP "\fB-y\fP   \fB\-\-ysize=SIZE\fP" 10 
+define vertical plot size [default=1.] 
+.IP "\fB-O\fP   \fB\-\-outplot=OUTPLOT\fP" 10 
+save plot to output.{ps,eps,png,svg} instead of displaying it 
+.SH "BUGS" 
+.PP 
+For now the program has only been tested on audio signals sampled at 
+44.1\ kHz. 
+.SH "SEE ALSO" 
+.PP 
+\fBaubioonset\fR(1) 
+\fBaubiotrack\fR(1) 
+\fBaubionotes\fR(1) 
+\fBaubiocut\fR(1) 
+ 
+.SH "AUTHOR" 
+.PP 
+This manual page was written by Paul Brossier (piem@altern.org). Permission 
+is granted to copy, distribute and/or modify this document under the terms 
+of the GNU General Public License, Version 2 any later version published 
+by the Free Software Foundation. 
+.PP 
+On Debian systems, the complete text of the GNU General Public 
+License can be found in /usr/share/common-licenses/GPL. 
+.\" created by instant / docbook-to-man, Sat 07 Oct 2006, 23:52 
