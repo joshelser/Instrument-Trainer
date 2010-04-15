@@ -217,6 +217,7 @@ CMidiEvent CMidiDeviceRt::readMidiInput()
     {
     case MIDI_NOTE_ON:
         if (m_inputMessage[2] != 0 )
+            /* midiEvent.noteOnEvent(0, channel, note, velocity) */
             midiEvent.noteOnEvent(0, channel, m_inputMessage[1], m_inputMessage[2]);
         else
             midiEvent.noteOffEvent(0,channel, m_inputMessage[1], m_inputMessage[2]);
