@@ -2,5 +2,10 @@ build/*
 aubio-0.3.2/examples/*.o
 aubio-0.3.2/ext/.libs/*.o
 aubio-0.3.2/ext/*.o
+aubio-0.3.2/ext/*.lo
+aubio-0.3.2/ext/*.la
 aubio-0.3.2/python/aubio/*.o
+aubio-0.3.2/python/aubio/*.lo
+aubio-0.3.2/python/aubio/*.la
 aubio-0.3.2/python/aubio/.libs/*.o
+aubio-0.3.2/python/aubio/.libs/*.la
