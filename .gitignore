@@ -2,6 +2,8 @@ build/*
 
 aubio/examples/*.o
 
+aubio/examples/.libs/*
+
 aubio/ext/*.o
 aubio/ext/*.lo
 aubio/ext/*.la
@@ -16,3 +18,7 @@ aubio/python/aubio/*.la
 
 aubio/python/aubio/.libs/*.o
 aubio/python/aubio/.libs/*.la
+
+aubio/src/*.o
+aubio/src/*.lo
+aubio/src/*.la
