@@ -56,14 +56,14 @@ public:
     void setSongName(QString songName);
     int getSongIndex() {return songCombo->currentIndex();}
     void setSongIndex(int index){songCombo->setCurrentIndex(index);}
-    void setCurrentHand(QString hand);
+    /* void setCurrentHand(QString hand); */
 
-    void setActiveHand(whichPart_t hand)
-    {
-        if (hand == PB_PART_right) rightHandRadio->setChecked(true);
-        if (hand == PB_PART_both)  bothHandsRadio->setChecked(true);
-        if (hand == PB_PART_left)  leftHandRadio->setChecked(true);
-    }
+    /* void setActiveHand(whichPart_t hand) */
+    /* { */
+    /*     if (hand == PB_PART_right) rightHandRadio->setChecked(true); */
+    /*     if (hand == PB_PART_both)  bothHandsRadio->setChecked(true); */
+    /*     if (hand == PB_PART_left)  leftHandRadio->setChecked(true); */
+    /* } */
 
     void nextSong(int amount)
     {

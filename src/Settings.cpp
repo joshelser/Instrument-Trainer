@@ -165,7 +165,7 @@ void CSettings::saveHandSettings()
 void CSettings::loadSongSettings()
 {
     m_domSong = openDomElement(m_domBook, "song", m_currentSongName);
-    m_guiSidePanel->setCurrentHand(m_domSong.attribute("hand", "both" ));
+    // m_guiSidePanel->setCurrentHand(m_domSong.attribute("hand", "both" ));
     m_guiTopBar->setSpeed(m_domSong.attribute("speed", "100" ).toInt());
 
 

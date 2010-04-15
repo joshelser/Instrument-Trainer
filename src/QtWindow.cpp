@@ -55,12 +55,12 @@ static int set_realtime_priority(int policy, int prio)
 
 QtWindow::QtWindow()
 {
-    QCoreApplication::setOrganizationName("PianoBooster");
-    QCoreApplication::setOrganizationDomain("pianobooster.sourceforge.net/");
-    QCoreApplication::setApplicationName("Piano Booster");
+    QCoreApplication::setOrganizationName("Instrument-Trainer");
+    QCoreApplication::setOrganizationDomain("github.com/joshelser/Instrument-Trainer");
+    QCoreApplication::setApplicationName("Instrument Trainer");
     m_settings = new CSettings(this);
     setWindowIcon(QIcon(":/images/Logo32x32.png"));
-    setWindowTitle(tr("Piano Booster"));
+    setWindowTitle(tr("Instrument Trainer"));
 
     decodeCommandLine();
 

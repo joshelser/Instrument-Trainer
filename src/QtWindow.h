@@ -112,9 +112,9 @@ private slots:
         CTempo::enableFollowTempo(false);
     }
 
-    void on_rightHand()  {  m_sidePanel->setActiveHand(PB_PART_right); }
-    void on_bothHands()  {  m_sidePanel->setActiveHand(PB_PART_both); }
-    void on_leftHand()   {  m_sidePanel->setActiveHand(PB_PART_left); }
+    /* void on_rightHand()  {  m_sidePanel->setActiveHand(PB_PART_right); } */
+    /* void on_bothHands()  {  m_sidePanel->setActiveHand(PB_PART_both); } */
+    /* void on_leftHand()   {  m_sidePanel->setActiveHand(PB_PART_left); } */
     void on_playFromStart()   {
         if(m_song->playingMusic())
             m_topBar->on_playButton_clicked(true); // Stop the music first if playing

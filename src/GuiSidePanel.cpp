@@ -52,12 +52,12 @@ void GuiSidePanel::init(CSong* songObj, CTrackList* trackList, GuiTopBar* topBar
     m_trackList->init(songObj, m_settings);
 
     followYouRadio->setChecked(true);
-    bothHandsRadio->setChecked(true);
+    // bothHandsRadio->setChecked(true);
 
     boostSlider->setMinimum(-100);
     boostSlider->setMaximum(100);
-    pianoSlider->setMinimum(-100);
-    pianoSlider->setMaximum(100);
+    // pianoSlider->setMinimum(-100);
+    // pianoSlider->setMaximum(100);
 
     QAction* act;
     act = new QAction("Set as Right Hand Part", this);
@@ -180,14 +180,14 @@ void GuiSidePanel::setBookName(QString bookName)
 }
 
 // pass either 'left' 'right' or 'both'
-void GuiSidePanel::setCurrentHand(QString hand)
-{
-    if (hand == "left")
-        leftHandRadio->setChecked(true);
-    else if (hand == "right")
-        rightHandRadio->setChecked(true);
-    else
-        bothHandsRadio->setChecked(true);
-    //on_bothHandsRadio_toggled
-}
+// void GuiSidePanel::setCurrentHand(QString hand)
+// {
+//     if (hand == "left")
+//         leftHandRadio->setChecked(true);
+//     else if (hand == "right")
+//         rightHandRadio->setChecked(true);
+//     else
+//         bothHandsRadio->setChecked(true);
+//     //on_bothHandsRadio_toggled
+// }
 
