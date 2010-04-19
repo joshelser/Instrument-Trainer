@@ -91,15 +91,15 @@ public:
     static CColour menuSelectedColour(){return CColour(0.7, 0.7, 0.1);}
 
 
-    static CColour staveColour()           {return CColour(0.0, 0.0, 0.0);} // green
+    static CColour staveColour()           {return CColour(0.1, 0.7, 0.1);} // green
     static CColour staveColourDim()        {return CColour(0.15, 0.40, 0.15);} // grey
-    static CColour noteColour()            {return CColour(0.0, 0.0, 0.0);} // green
+    static CColour noteColour()            {return CColour(0.1, 0.9, 0.1);} // green
     static CColour noteColourDim()         {return CColour(0.25, 0.45, 0.25);} // green
     //static CColour playedGoodColour()    {return CColour(0.6, 0.6, 1.0);} // grey
     static CColour playedGoodColour()      {return CColour(0.5, 0.6, 1.0);} // purple 0.6, 0.6, 1.0
     static CColour playedBadColour()       {return CColour(0.8, 0.3, 0.8);} // orange 0.7, 0.0, 0.0
     static CColour playedStoppedColour()   {return CColour(1.0, 0.8, 0.0);} // bright orange
-    static CColour backgroundColour()      {return CColour(1.0, 1.0, 1.0);} // black
+    static CColour backgroundColour()      {return CColour(0.0, 0.0, 0.0);} // black
     static CColour barMarkerColour()       {return CColour(0.3, 0.25, 0.25);} // grey
     static CColour beatMarkerColour()      {return CColour(0.25, 0.2, 0.2);} // grey
     static CColour pianoGoodColour()      {return playedGoodColour();}
