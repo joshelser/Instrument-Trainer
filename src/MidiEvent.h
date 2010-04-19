@@ -136,12 +136,30 @@ public:
         m_velocity = velocity;
     }
 
+    void inputNoteOffEvent( int deltaTime, int channel, int note, int velocity)
+    {
+        m_type = MIDI_NOTE_OFF;
+        m_deltaTime = deltaTime;
+        m_channel = channel;
+        m_note = note + 2;
+        m_velocity = velocity;
+    }
+
     void noteOnEvent( int deltaTime, int channel, int note, int velocity)
     {
         m_type = MIDI_NOTE_ON;
         m_deltaTime = deltaTime;
         m_channel = channel;
         m_note = note;
+        m_velocity = velocity;
+    }
+
+    void inputNoteOnEvent( int deltaTime, int channel, int note, int velocity)
+    {
+        m_type = MIDI_NOTE_ON;
+        m_deltaTime = deltaTime;
+        m_channel = channel;
+        m_note = note + 2;
         m_velocity = velocity;
     }
 
