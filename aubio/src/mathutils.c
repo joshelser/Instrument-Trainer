@@ -372,7 +372,11 @@ smpl_t aubio_freqtomidi(smpl_t freq) {
         smpl_t midi = freq/6.875;
         midi = LOG(midi)/0.69314718055995;
         midi *= 12;
+<<<<<<< HEAD
         midi -= 3;  
+=======
+        midi -= 3.;  
+>>>>>>> 00997791552c950ffa33f6f5c7b9eccf6cbdd79d
         return midi;
 }
 
