@@ -38,6 +38,7 @@
 #include "GuiPreferencesDialog.h"
 #include "GuiSongDetailsDialog.h"
 #include "GuiLoopingPopup.h"
+#include "GuiSetTranspositionDialog.h"
 #include "Settings.h"
 
 
@@ -96,6 +97,13 @@ private slots:
         GuiKeyboardSetupDialog keyboardSetup(this);
         keyboardSetup.init(m_song, m_settings);
         keyboardSetup.exec();
+    }
+
+    void showTranspositionDialog()
+    {
+        GuiSetTranspositionDialog transpositionDialog(this);
+        transpositionDialog.init(m_settings);
+        transpositionDialog.exec();
     }
 
     void toggleSidePanel()
@@ -172,6 +180,7 @@ private:
     QAction *m_songPlayAct;
     QAction *m_setupMidiAct;
     QAction *m_setupKeyboardAct;
+    QAction *m_setTranspositionAct;
     QAction *m_toggleSidePanelAct;
     QAction *m_setupPreferencesAct;
     QAction *m_songDetailsAct;

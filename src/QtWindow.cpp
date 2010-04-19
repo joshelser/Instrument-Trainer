@@ -303,6 +303,10 @@ void QtWindow::createActions()
     m_setupKeyboardAct->setStatusTip(tr("Change the piano keybaord settings"));
     connect(m_setupKeyboardAct, SIGNAL(triggered()), this, SLOT(showKeyboardSetup()));
 
+    m_setTranspositionAct = new QAction(tr("&Transposition ..."), this);
+    m_setTranspositionAct->setStatusTip(tr("Configure transposition of the Midi input"));
+    connect(m_setTranspositionAct, SIGNAL(triggered()), this, SLOT(showTranspositionDialog()));
+
     m_toggleSidePanelAct = new QAction(tr("&Show/Hide the Side Panel"), this);
     m_toggleSidePanelAct->setShortcut(tr("F11"));
     connect(m_toggleSidePanelAct, SIGNAL(triggered()), this, SLOT(toggleSidePanel()));
@@ -352,6 +356,7 @@ void QtWindow::createMenus()
     m_setupMenu = menuBar()->addMenu(tr("Set&up"));
     m_setupMenu->addAction(m_setupMidiAct);
     m_setupMenu->addAction(m_setupKeyboardAct);
+    m_setupMenu->addAction(m_setTranspositionAct);
     m_setupMenu->addAction(m_setupPreferencesAct);
 
     m_helpMenu = menuBar()->addMenu(tr("&Help"));
