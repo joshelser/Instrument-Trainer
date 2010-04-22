@@ -59,6 +59,13 @@ public:
         return m_noteNamesEnabled;
     }
 
+    int getMidiInputTransposition(){
+        return m_midiInputTransposition;
+    }
+    void setMidiInputTransposition(int trans){
+        m_midiInputTransposition = trans;
+    }
+
     void openSongFile(const QString & filename);
     QString getCurrentSongName() { return m_currentSongName; }
     void setCurrentSongName(const QString & name);
@@ -140,6 +147,7 @@ private:
     QString m_warningMessage;
     QStringList m_fluidSoundFontNames;
     bool m_pianistActive;
+    int m_midiInputTransposition;
 };
 
 #endif // __SETTINGS_H__
