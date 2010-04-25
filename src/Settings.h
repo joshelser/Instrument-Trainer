@@ -65,6 +65,12 @@ public:
     void setMidiInputTransposition(int trans){
         m_midiInputTransposition = trans;
     }
+    void transposeInputUp() {
+	m_midiInputTransposition++;
+    }
+    void transposeInputDown() {
+	m_midiInputTransposition--;
+    }
 
     void openSongFile(const QString & filename);
     QString getCurrentSongName() { return m_currentSongName; }
