@@ -22,7 +22,24 @@
     </widget>
    </item>
    <item>
-    <widget class="QTextEdit" name="currentTransposition"/>
+    <widget class="QLabel" name="transposeLabel">
+     <property name="text">
+      <string>Current Transposition:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="currentTransposition">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
    </item>
    <item>
     <widget class="QPushButton" name="transposeDown">
