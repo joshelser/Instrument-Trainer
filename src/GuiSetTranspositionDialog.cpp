@@ -65,10 +65,24 @@ void GuiSetTranspositionDialog::updateTranspositionText()
     // }
 
     // buttonBox->button(QDialogButtonBox::Ok)->setEnabled(activateOkButton);
-    currentTransposition->append("hello world");
+    currentTransposition->setText(tr("%1 semitones").arg(m_settings->getMidiInputTransposition()));
 }
 
 void GuiSetTranspositionDialog::accept()
 {
     this->QDialog::accept();
+}
+
+void GuiSetTranspositionDialog::on_transposeUp_clicked()
+{
+    m_settings->transposeInputUp();
+
+    updateTranspositionText();
+}
+
+void GuiSetTranspositionDialog::on_transposeDown_clicked()
+{
+    m_settings->transposeInputDown();
+
+    updateTranspositionText();
 }

@@ -50,6 +50,8 @@ public:
 
 private slots:
     void accept();
+    void on_transposeUp_clicked();
+    void on_transposeDown_clicked();
 
 private:
     void updateTranspositionText();
