@@ -65,6 +65,7 @@ CSettings::CSettings(QtWindow *mainWindow) : QSettings(CSettings::IniFormat, CSe
 
     m_advancedMode = false;
     m_pianistActive = false;
+    m_midiInputTransposition = 0;
     m_noteNamesEnabled = value("Score/NoteNames", true ).toBool();
     CNotation::setCourtesyAccidentals(value("Score/CourtesyAccidentals", false ).toBool());
 }
