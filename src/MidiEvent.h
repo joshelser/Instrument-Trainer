@@ -122,10 +122,18 @@ public:
     int velocity() const {return m_velocity;}
     int type() const {return m_type;}
     void setType(int type){m_type = type;}
-    void transpose(int amount) {m_note += amount;}
     int data1() const {return m_note;} // Meta data is stored here
     int data2() const {return m_velocity;}
     void setDatat2(int value) {m_velocity = value;}
+
+    void transpose(int amount) 
+    {
+        // Validate that we still get a legit midi note
+        if (m_note + amount >= 0 && m_note + amount <= 255)
+        {
+            m_note += amount;
+        }
+    }
 
     void noteOffEvent( int deltaTime, int channel, int note, int velocity)
     {
