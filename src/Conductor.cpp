@@ -541,6 +541,9 @@ void CConductor::pianistInput(CMidiEvent inputNote)
     if (m_testWrongNoteSound)
         goodSound = false;
 
+    // Transpose the note by the transposition setting
+    inputNote.transpose(m_settings->getMidiInputTransposition());
+
     if (inputNote.type() == MIDI_NOTE_ON)
     {
         whichPart_t hand;
