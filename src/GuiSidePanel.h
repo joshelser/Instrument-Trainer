@@ -78,9 +78,9 @@ public:
 private slots:
     void on_songCombo_activated (int index);
     void on_bookCombo_activated (int index);
-    void on_rightHandRadio_toggled (bool checked);
-    void on_bothHandsRadio_toggled (bool checked);
-    void on_leftHandRadio_toggled (bool checked);
+    //void on_rightHandRadio_toggled (bool checked);
+    //void on_bothHandsRadio_toggled (bool checked);
+    //void on_leftHandRadio_toggled (bool checked);
 
     void on_trackListWidget_currentRowChanged(int currentRow) {
         if (m_trackList){
@@ -93,9 +93,9 @@ private slots:
         if (m_song) m_song->boostVolume(value);
     }
 
-    void on_pianoSlider_valueChanged(int value) {
+    /*void on_pianoSlider_valueChanged(int value) {
         if (m_song) m_song->pianoVolume(value);
-    }
+    }*/
     void on_listenRadio_toggled (bool checked)
     {
         if (!m_song || !checked) return;

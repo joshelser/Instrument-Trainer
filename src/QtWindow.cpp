@@ -329,9 +329,9 @@ void QtWindow::createActions()
     connect(act, SIGNAL(triggered()), this, SLOT(disableFollowTempo()));
     addAction(act);
 
-    addShortcutAction("ShortCuts/RightHand",        SLOT(on_rightHand()));
-    addShortcutAction("ShortCuts/BothHands",        SLOT(on_bothHands()));
-    addShortcutAction("ShortCuts/LeftHand",         SLOT(on_leftHand()));
+    //addShortcutAction("ShortCuts/RightHand",        SLOT(on_rightHand()));
+    //addShortcutAction("ShortCuts/BothHands",        SLOT(on_bothHands()));
+    //addShortcutAction("ShortCuts/LeftHand",         SLOT(on_leftHand()));
     addShortcutAction("ShortCuts/PlayFromStart",    SLOT(on_playFromStart()));
     addShortcutAction("ShortCuts/PlayPause",        SLOT(on_playPause()));
     addShortcutAction("ShortCuts/Faster",           SLOT(on_faster()));

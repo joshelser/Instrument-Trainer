@@ -134,7 +134,7 @@ void GuiSidePanel::on_songCombo_activated(int index)
     m_settings->setCurrentSongName(songCombo->currentText());
 }
 
-void GuiSidePanel::on_rightHandRadio_toggled (bool checked)
+/*void GuiSidePanel::on_rightHandRadio_toggled (bool checked)
 {
     if (checked)
         m_settings->setActiveHand(PB_PART_right);
@@ -151,7 +151,7 @@ void GuiSidePanel::on_leftHandRadio_toggled (bool checked)
     if (checked)
         m_settings->setActiveHand(PB_PART_left);
 }
-
+*/
 void GuiSidePanel::autoSetMuteYourPart()
 {
     bool checked = false;
