@@ -106,7 +106,7 @@ void CScore::drawScore()
             drColour (Cfg::staveColour());
 
             drawSymbol(CSymbol(PB_SYMBOL_gClef, CStavePos(PB_PART_right, -1)), Cfg::clefX()); // The Treble Clef
-            drawSymbol(CSymbol(PB_SYMBOL_fClef, CStavePos(PB_PART_left, 1)), Cfg::clefX());
+            //drawSymbol(CSymbol(PB_SYMBOL_fClef, CStavePos(PB_PART_left, 1)), Cfg::clefX());
             drawKeySignature(CStavePos::getKeySignature());
             drawStaves(Cfg::staveStartX(), Cfg::scrollStartX());
         glEndList ();
