@@ -92,9 +92,9 @@ public:
 
 
     static CColour staveColour()           {return CColour(0.1, 0.7, 0.1);} // green
-    static CColour staveColourDim()        {return CColour(0.15, 0.40, 0.15);} // grey
+    static CColour staveColourDim()        {return CColour(0.0, 0.0, 0.0);} // grey
     static CColour noteColour()            {return CColour(0.1, 0.9, 0.1);} // green
-    static CColour noteColourDim()         {return CColour(0.25, 0.45, 0.25);} // green
+    static CColour noteColourDim()         {return CColour(0.0, 0.0, 0.0);} // green
     //static CColour playedGoodColour()    {return CColour(0.6, 0.6, 1.0);} // grey
     static CColour playedGoodColour()      {return CColour(0.5, 0.6, 1.0);} // purple 0.6, 0.6, 1.0
     static CColour playedBadColour()       {return CColour(0.8, 0.3, 0.8);} // orange 0.7, 0.0, 0.0
