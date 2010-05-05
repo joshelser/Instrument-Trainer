@@ -1,0 +1,28 @@
+#!/bin/sh
+# Startup script file for Instrument Trainer
+# 
+# Starts (in this order):
+# - timidity++ midi sequencer
+# - jackd
+# - aubionotes (pitch detection)
+# - Instrument Trainer (through pianobooster executable)
+
+timidity -iA -B2,8 -Os -EFreverb=0 &
+
+jackd -dalsa -dhw:0 -r48000 -p1024 -n2 &
+
+# allow time for jack to startup fully
+sleep 1
+
+./aubio/examples/aubionotes &
+
+# make sure aubionotes is running before we try and connect anything
+sleep 1
+
+# connect system mic to aubionotes input
+jack_connect system:capture_1 aubio:in_1
+
+./build/pianobooster
+
+# hopefully jackd wasn't running on your system before this script :)
+killall jackd
