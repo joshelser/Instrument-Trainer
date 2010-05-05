@@ -102,6 +102,7 @@ public:
     }
     void pianistActive() { m_pianistActive = true;}
     void setActiveHand(whichPart_t hand);
+    whichPart_t getActiveHand() { return m_song->getActiveHand(); }
 
     void setChannelHands(int left, int right);
 
