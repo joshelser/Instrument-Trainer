@@ -34,7 +34,7 @@ GuiSetTranspositionDialog::GuiSetTranspositionDialog(QWidget *parent)
 {
     setupUi(this);
     m_settings = 0;
-    setWindowTitle("Transposition");
+    setWindowTitle("Instrument Setup");
 }
 
 
@@ -42,11 +42,24 @@ void GuiSetTranspositionDialog::init(CSettings* settings)
 {
     m_settings = settings;
 
-    updateTranspositionText();
+    clefCombo->addItem("Treble");
+    clefCombo->addItem("Bass");
+    clefCombo->addItem("Both");
+
+    if (m_settings->getActiveHand() == PB_PART_right)
+      clefCombo->setCurrentIndex(0);
+    else if (m_settings->getActiveHand() == PB_PART_left)
+      clefCombo->setCurrentIndex(1);
+    else
+      clefCombo->setCurrentIndex(2);
+
+    transpositionSpin->setValue(m_settings->getMidiInputTransposition());
+
+    //    updateTranspositionText();
 }
 
 
-void GuiSetTranspositionDialog::updateTranspositionText()
+/*void GuiSetTranspositionDialog::updateTranspositionText()
 {
     currentTransposition->clear();
     // bool activateOkButton = false;
@@ -66,23 +79,24 @@ void GuiSetTranspositionDialog::updateTranspositionText()
 
     // buttonBox->button(QDialogButtonBox::Ok)->setEnabled(activateOkButton);
     currentTransposition->setText(tr("%1 semitones").arg(m_settings->getMidiInputTransposition()));
-}
+    }*/
 
 void GuiSetTranspositionDialog::accept()
 {
     this->QDialog::accept();
 }
 
-void GuiSetTranspositionDialog::on_transposeUp_clicked()
+void GuiSetTranspositionDialog::on_transpositionSpin_valueChanged(int value)
 {
-    m_settings->transposeInputUp();
-
-    updateTranspositionText();
+  m_settings->setMidiInputTransposition(value);
 }
 
-void GuiSetTranspositionDialog::on_transposeDown_clicked()
+void GuiSetTranspositionDialog::on_clefCombo_activated(int index)
 {
-    m_settings->transposeInputDown();
-
-    updateTranspositionText();
+  if (index == 0)
+    m_settings->setActiveHand(PB_PART_right);
+  else if (index == 1)
+    m_settings->setActiveHand(PB_PART_left);
+  else
+    m_settings->setActiveHand(PB_PART_both);
 }

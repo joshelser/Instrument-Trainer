@@ -50,8 +50,10 @@ public:
 
 private slots:
     void accept();
-    void on_transposeUp_clicked();
-    void on_transposeDown_clicked();
+    /* void on_transposeUp_clicked(); */
+    /* void on_transposeDown_clicked(); */
+    void on_transpositionSpin_valueChanged(int value);
+    void on_clefCombo_activated(int index);
 
 private:
     void updateTranspositionText();
