@@ -362,7 +362,7 @@ void CSettings::setCurrentSongName(const QString & name)
 
     m_guiSidePanel->refresh();
     m_guiTopBar->refresh(true);
-    m_mainWindow->setWindowTitle("Piano Booster - " + m_song->getSongTitle());
+    m_mainWindow->setWindowTitle("Instrument Trainer - " + m_song->getSongTitle());
 }
 
 void CSettings::setCurrentBookName(const QString & name, bool clearSongName)

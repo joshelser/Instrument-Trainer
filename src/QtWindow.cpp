@@ -154,7 +154,7 @@ QtWindow::~QtWindow()
 //! @brief               Displays the usage
 void QtWindow::displayUsage()
 {
-    fprintf(stderr, "Usage: pianobooster [flags] [midifile]\n");
+    fprintf(stderr, "Usage: instrument-trainer [flags] [midifile]\n");
     fprintf(stderr, "       -d: Increase the debug level\n");
     fprintf(stderr, "       -q: Quick start\n");
     fprintf(stderr, "       -h: --help: Displays this help message\n");
@@ -364,11 +364,11 @@ void QtWindow::createMenus()
     QAction* act;
     act = new QAction(tr("&Help"), this);
     connect(act, SIGNAL(triggered()), this, SLOT(help()));
-    m_helpMenu->addAction(act);
+    //    m_helpMenu->addAction(act);
 
     act = new QAction(tr("&Website"), this);
     connect(act, SIGNAL(triggered()), this, SLOT(website()));
-    m_helpMenu->addAction(act);
+    //    m_helpMenu->addAction(act);
 
     m_helpMenu->addAction(m_shortcutAct);
     m_helpMenu->addAction(m_aboutAct);
@@ -431,12 +431,13 @@ void QtWindow::help()
 void QtWindow::about()
 {
     QMessageBox msgBox(this);
-    msgBox.setWindowTitle (tr("About Piano Booster"));
+    msgBox.setWindowTitle (tr("About Instrument Trainer"));
     msgBox.setText(
             tr(
-                "<b>PainoBooster - Version " PB_VERSION "</b> <br><br>"
-                "<b>Boost</b> your <b>Piano</b> playing skills!<br><br>"
-                "<a href=\"http://pianobooster.sourceforge.net/\" ><b>http://pianobooster.sourceforge.net</b></a><br><br>"
+                "<b>Instrument Trainer</b> <br><br>"
+		"Written by Josh Elser and Cameron Fackler "
+		"for ITEC-4961, It for Arts and Performance at Rensselaer Polytechnic Institute.<br><br>"
+		"Modified and adapted from Piano Booster<br>"
                 "Copyright(c) L. J. Barman, 2008-2009; All rights reserved.<br><br>"
                 "This program is made available "
                 "under the terms of the GNU General Public License version 3 as published by "
