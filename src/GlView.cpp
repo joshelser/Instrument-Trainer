@@ -153,12 +153,12 @@ void CGLView::drawTimeSignature()
     y = CStavePos(PB_PART_right, -3).getPosY() - 2;
     renderText(x,y, 0, bufferBottom, m_timeSigFont);
 
-    /*CDraw::drColour ((CDraw::getDisplayHand() != PB_PART_right) ? Cfg::noteColour() : Cfg::noteColourDim());
+    CDraw::drColour ((CDraw::getDisplayHand() != PB_PART_right) ? Cfg::noteColour() : Cfg::noteColourDim());
 
     y = CStavePos(PB_PART_left,   0).getPosY() + 5;
     renderText(x,y, 0, bufferTop, m_timeSigFont);
     y = CStavePos(PB_PART_left,  -3).getPosY() - 2;
-    renderText(x,y, 0, bufferBottom, m_timeSigFont);*/
+    renderText(x,y, 0, bufferBottom, m_timeSigFont);
 }
 
 void CGLView::drawAccurracyBar()
