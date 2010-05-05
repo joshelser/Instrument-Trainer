@@ -303,7 +303,7 @@ void QtWindow::createActions()
     m_setupKeyboardAct->setStatusTip(tr("Change the piano keybaord settings"));
     connect(m_setupKeyboardAct, SIGNAL(triggered()), this, SLOT(showKeyboardSetup()));
 
-    m_setTranspositionAct = new QAction(tr("&Transposition ..."), this);
+    m_setTranspositionAct = new QAction(tr("&Instrument Setup ..."), this);
     m_setTranspositionAct->setStatusTip(tr("Configure transposition of the Midi input"));
     connect(m_setTranspositionAct, SIGNAL(triggered()), this, SLOT(showTranspositionDialog()));
 
