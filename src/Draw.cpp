@@ -307,6 +307,24 @@ void CDraw::drawSymbol(CSymbol symbol, float x, float y)
         playable = false;
     }
 
+    float topY, bottomY, topYrel, bottomYrel;
+    if (m_settings->getActiveHand() == PB_PART_right) {
+      topY = CStavePos(PB_PART_right, m_beatMarkerHeight).getPosY();
+      topYrel = CStavePos(PB_PART_right, m_beatMarkerHeight).getPosYRelative();
+      bottomY = CStavePos(PB_PART_right, -m_beatMarkerHeight).getPosY();
+      bottomYrel = CStavePos(PB_PART_right, -m_beatMarkerHeight).getPosYRelative();
+    } else if (m_settings->getActiveHand() == PB_PART_left) {
+      topY = CStavePos(PB_PART_left, m_beatMarkerHeight).getPosY();
+      bottomY = CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosY();
+      topYrel = CStavePos(PB_PART_left, m_beatMarkerHeight).getPosYRelative();
+      bottomYrel = CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosYRelative();
+    } else {
+      topY = CStavePos(PB_PART_right, m_beatMarkerHeight).getPosY();
+      bottomY = CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosY();
+      topYrel = CStavePos(PB_PART_right, m_beatMarkerHeight).getPosYRelative();
+      bottomYrel = CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosYRelative();
+    }      
+
     switch (symbol.getType())
     {
          case PB_SYMBOL_gClef: // The Treble Clef
@@ -510,31 +528,28 @@ void CDraw::drawSymbol(CSymbol symbol, float x, float y)
             glLineWidth (4.0);
             drColour ((m_displayHand == PB_PART_left) ? Cfg::staveColourDim() : Cfg::staveColour());
             oneLine(x, CStavePos(PB_PART_right, 4).getPosYRelative(), x, CStavePos(PB_PART_right, -4).getPosYRelative());
-            /*drColour ((m_displayHand == PB_PART_right) ? Cfg::staveColourDim() : Cfg::staveColour());
-            oneLine(x, CStavePos(PB_PART_left, 4).getPosYRelative(), x, CStavePos(PB_PART_left, -4).getPosYRelative());*/
+            drColour ((m_displayHand == PB_PART_right) ? Cfg::staveColourDim() : Cfg::staveColour());
+            oneLine(x, CStavePos(PB_PART_left, 4).getPosYRelative(), x, CStavePos(PB_PART_left, -4).getPosYRelative());
             break;
 
         case PB_SYMBOL_barMarker:
             x += BEAT_MARKER_OFFSET * HORIZONTAL_SPACING_FACTOR; // the beat markers where entered early so now move them correctly
             glLineWidth (5.0);
-            /*drColour(Cfg::barMarkerColour());
-            oneLine(x, CStavePos(PB_PART_right, m_beatMarkerHeight).getPosYRelative(), x, CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosYRelative());*/
+            drColour(Cfg::barMarkerColour());
+            oneLine(x, topYrel, x, bottomYrel);
             glDisable (GL_LINE_STIPPLE);
             break;
 
         case PB_SYMBOL_beatMarker:
             x += BEAT_MARKER_OFFSET * HORIZONTAL_SPACING_FACTOR; // the beat markers where entered early so now move them correctly
             glLineWidth (4.0);
-            /*drColour(Cfg::beatMarkerColour());
-            oneLine(x, CStavePos(PB_PART_right, m_beatMarkerHeight).getPosYRelative(), x, CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosYRelative());*/
+            drColour(Cfg::beatMarkerColour());
+            oneLine(x, topYrel, x, bottomYrel);
             glDisable (GL_LINE_STIPPLE);
             break;
 
          case PB_SYMBOL_playingZone:
             {
-                float topY = CStavePos(PB_PART_right, m_beatMarkerHeight).getPosY();
-                float bottomY = CStavePos(PB_PART_right, -m_beatMarkerHeight).getPosY();
-                //float bottomY = CStavePos(PB_PART_left, -m_beatMarkerHeight).getPosY();
                 float early = Cfg::playZoneEarly() * HORIZONTAL_SPACING_FACTOR;
                 float late = Cfg::playZoneLate() * HORIZONTAL_SPACING_FACTOR;
                 //glColor3f (0.7, 1.0, 0.7);
@@ -597,13 +612,13 @@ void CDraw::drawStaves(float startX, float endX)
         glVertex2f (startX, pos.getPosY());
         glVertex2f (endX, pos.getPosY());
     }
-    /*drColour ((m_displayHand != PB_PART_right) ? Cfg::staveColour() : Cfg::staveColourDim());
+    drColour ((m_displayHand != PB_PART_right) ? Cfg::staveColour() : Cfg::staveColourDim());
     for (i = -4; i <= 4; i+=2 )
     {
         CStavePos pos = CStavePos(PB_PART_left, i);
         glVertex2f (startX, pos.getPosY());
         glVertex2f (endX,   pos.getPosY());
-    }*/
+    }
     glEnd();
 }
 
