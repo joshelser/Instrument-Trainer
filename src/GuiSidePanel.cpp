@@ -54,6 +54,10 @@ void GuiSidePanel::init(CSong* songObj, CTrackList* trackList, GuiTopBar* topBar
     followYouRadio->setChecked(true);
     // bothHandsRadio->setChecked(true);
 
+    // hide some things
+    boostSlider->hide();
+    muteYourPartCheck->hide();
+
     boostSlider->setMinimum(-100);
     boostSlider->setMaximum(100);
     // pianoSlider->setMinimum(-100);
@@ -73,6 +77,9 @@ void GuiSidePanel::init(CSong* songObj, CTrackList* trackList, GuiTopBar* topBar
     connect(act, SIGNAL(triggered()), this, SLOT(clearTrackPart()));
 
     trackListWidget->setContextMenuPolicy(Qt::ActionsContextMenu);
+
+    // always use right hand
+    m_settings->setActiveHand(PB_PART_right);
 }
 
 void GuiSidePanel::refresh() {
