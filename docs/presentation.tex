@@ -56,8 +56,14 @@ ITEC 4961: IT for Arts and Performance\\
 \subsection{What is it?}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{Instrument Trainer}
+  \begin{itemize}
+    \item \uncover<1->{Instrument Trainer is a C++ application written with \textit{QT} that
+      compares a stream of incoming MIDI data to a MIDI file, displaying the
+      accuracy of the notes played by the user.}
+    \item \uncover<2->{By converting data taken from a microphone into MIDI
+      notes, Instrument Trainer can follow along with a played melody.}
+  \end{itemize}
 \end{frame}
 
 \section{Technology}
@@ -65,15 +71,23 @@ ITEC 4961: IT for Arts and Performance\\
 \subsection{MIDI}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{MIDI}
+  \begin{itemize}
+    \item \uncover<1->{MIDI provides a simple way to compare notes in the
+      application.}
+    \item \uncover<2->{Many channels and fast data transfer is not necessary.}
+  \end{itemize}
 \end{frame}
 
 \subsection{ALSA - MIDI Sequencer}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{ALSA - MIDI Sequencer}
+  \begin{itemize}
+    \item \uncover<1->{Need to have a way to pass MIDI data from the pitch
+      detection to the application.}
+    \item \uncover<2->{Creates a "pipe" to send MIDI data over.}
+  \end{itemize}
 \end{frame}
 
 \subsection{JACK}
