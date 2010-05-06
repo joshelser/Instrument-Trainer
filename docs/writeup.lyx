@@ -1,0 +1,187 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Instrument Trainer
+\end_layout
+
+\begin_layout Author
+Josh Elser
+\begin_inset Newline newline
+\end_inset
+
+Cameron Fackler
+\end_layout
+
+\begin_layout Standard
+Instrument Trainer is software to aid in learning how to play a musical
+ instrument.
+ Inspired by games like Guitar Hero and Rock Band, a user plays along to
+ a song stored on his or her computer.
+ Unlike these popular games, however, Instrument Trainer uses real musical
+ notation and instruments rather than color-coded shapes and plastic instruments
+ with correspondingly colored buttons.
+ We feel that our application provides a unique opportunity for beginning
+ musicians to practice music interactively.
+\end_layout
+
+\begin_layout Standard
+When researching and looking for similar applications we discovered several
+ related programs, but none fit what we were ultimately looking for.
+ The open source application Piano Booster came closest, providing a similar
+ program for learning to play piano.
+ It renders the notes from a MIDI file to a scrolling grand staff, and users
+ play along to the displayed music with a MIDI keyboard.
+ Piano Booster served as the basis for Instrument Trainer.
+ We also discovered Aubio, an open source signal processing library.
+ One of the example programs provided with the distribution detects pitches
+ and translates notes to MIDI data.
+ Thinking we had all the necessary pieces, we set out to put them together
+ to create Instrument Trainer.
+\end_layout
+
+\begin_layout Standard
+Several audio and video technologies went into making Instrument Trainer.
+ Given the availability of open source software related to the project,
+ we chose to base our application on the Linux platform.
+ For audio input and MIDI sequencing, we used ALSA, the Advanced Linux Sound
+ Architecture.
+ Once the sound data has been read from the microphone, JACK, the Jack Audio
+ Connection Kit, provides a low-latency audio transport between applications.
+ Aubio uses digital signal processing to detect pitches, and MIDI is used
+ to communicate this data with our main application.
+ Qt, an application development framework, provides programming libraries
+ and a GUI toolkit used for the main window and dialogs of Instrument Trainer.
+ The application itself is written in C++.
+ OpenGL is used to display music notation.
+\end_layout
+
+\begin_layout Standard
+The main problem we encountered while working on Instrument Trainer was
+ figuring out where to integrate our changes and additions with the existing
+ programs and libraries we had.
+ We needed to replace the MIDI keyboard input of Piano Booster with input
+ from the computer microphone.
+ Since Piano Booster was designed for piano playing and we were aiming towards
+ single wind instruments, we needed to remove either the treble or bass
+ clef staff from display, depending on the instrument the user wished to
+ play.
+\end_layout
+
+\begin_layout Standard
+Inputting microphone data to the Aubio pitch detection library was straightforwa
+rd.
+ However, getting the output of pitch detection into Instrument Trainer
+ was not.
+ At first we used a hacked-together, convoluted solution for getting MIDI
+ data from our pitch detection library to the main application involving
+ an intermediate MIDI sequencer client.
+ Ultimately we were able to plug the output of the pitch detection directly
+ into the main program with some ALSA MIDI sequencer programming.
+\end_layout
+
+\begin_layout Standard
+To remove one of the music staves from view, we began by deleting the code
+ which was responsible for rendering the bass clef staff.
+ However, this removed functionality for users wishing to play bass clef
+ instruments.
+ We developed and coded a solution which allows the user to select between
+ treble and bass clef display.
+ We also added the ability for users to specify a transposition of the input
+ data.
+ Transposing input data by an arbitrary amount of half steps allows correction
+ for microphone distortion, as well as the use of musical instruments which
+ are not keyed in concert pitch.
+\end_layout
+
+\begin_layout Standard
+A few issues presented themselves during our project development which are
+ to some degree out of our control.
+ The reliability of the pitch detection is highly dependent on microphone
+ quality and input level.
+ The user must ensure that the microphone is set to an appropriate level
+ before using Instrument Trainer.
+ Setting the level too high will result in distortion and excessive background
+ noise interference.
+ Levels that are too low result in unsatisfactory audio pick up.
+ Given more time, a microphone calibration feature would be added, making
+ it easier for the user to set appropriate microphone levels.
+ Background noise can also be mitigated by microphone selection and by placing
+ the microphone closer to the performer.
+\end_layout
+
+\begin_layout Standard
+Since the music notation is rendered with OpenGL, the computer running Instrumen
+t Trainer must have a sufficiently powerful graphics card.
+ If the application window is made too large, graphics drawing and scrolling
+ will become jumpy and Instrument Trainer will respond poorly.
+ This is another area that would be improved given further time.
+ We would like to optimize the OpenGL drawing code, as well as include some
+ additional functionality.
+ Currently only filled-in note heads are drawn.
+ Stems and note head durations would be added in future revisions.
+ We would also work to make the user interface more accessible and remove
+ some unnecessary functionality.
+\end_layout
+
+\begin_layout Standard
+In conclusion, Instrument Trainer has realized the goals we started with.
+ A user can select a MIDI file containing a song he or she would like to
+ learn.
+ The song notes can be displayed in either treble or bass clef and transposed
+ to any key signature.
+ As the computer scrolls through the song, the user must play along with
+ the notes displayed on screen.
+ The user has the option of having Instrument Trainer wait until the correct
+ note is played, or can attempt to play along and have the accuracy of his
+ or her playing tracked.
+ Instrument Trainer is a unique practice and instruction aide for musicians.
+\end_layout
+
+\end_body
+\end_document
