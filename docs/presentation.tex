@@ -93,43 +93,80 @@ ITEC 4961: IT for Arts and Performance\\
 \subsection{JACK}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{JACK}
+  \begin{itemize}
+    \item \uncover<1->{JACK Audio Connection Kit}
+    \item \uncover<2->{"System for handling real-time, low-latency audio and
+      MIDI"}
+    \item \uncover<3->{Allows us to process microphone data in real-time}
+  \end{itemize}
 \end{frame}
 
 \subsection{DSP - Aubio}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{Aubio}
+  \begin{itemize}
+    \item \uncover<1->{"Aubio is a tool designed for the extraction of audio
+      annotations from audio signals"}
+    \item \uncover<2->{Allows us to generate MIDI events from microphone data}
+    \item \uncover<3->{Uses JACK to process the microphone data in real-time}
+  \end{itemize}
 \end{frame}
 
 \subsection{OpenGL}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{OpenGL}
+  \begin{itemize}
+    \item \uncover<1->{"OpenGL is the premier environment for developing
+      portable, interactive 2D and 3D graphics applications."}
+    \item \uncover<2->{Allows the user to play along with a song, the notes
+      need to be rendered to the screen.}
+    \item \uncover<3->{Can draw a staff, key signature, time signature, notes,
+        and a progress bar while playing.}
+  \end{itemize}
 \end{frame}
 
 \section{What was accomplished}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{Accomplishments}
+  \begin{itemize}
+    \item \uncover<1->{Listen to a played instrument, converting audio signal to
+      a pitch, then to a MIDI event.}
+    \item \uncover<2->{Render song data stored in a MIDI file.}
+    \item \uncover<3->{Compare stored data to incoming MIDI data (a.k.a. compare
+      the song to the instrument performance).}
+    \item \uncover<4->{User is able to select treble or bass clef for the song
+      to be displayed as.}
+    \item \uncover<5->{User is able to transpose the instrument input to allow
+      for non-concert-pitch instruments or microphone inconsistencies.}
+  \end{itemize}
 \end{frame}
 
 \section{Potential Issues}
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{Potential Issues}
+  \begin{itemize}
+    \item \uncover<1->{Lacking microphone quality.}
+    \item \uncover<2->{Interference from outside noise.}
+    \item \uncover<3->{Slow OpenGL rendering with a large window.}
+  \end{itemize}
 \end{frame}
 
 \section{Future Work}
+%- Continue cleaning up the UI
+%- make graphics rendering more efficient
 
 \begin{frame}
-  \frametitle{Taco}
-  Taco taco taco
+  \frametitle{Future Work}
+  \begin{itemize}
+    \item \uncover<1->{Continue to optimize user interface.}
+    \item \uncover<2->{Increase efficiency of graphic rendering.}
+    \item \uncover<3->{More robust musical notation.}
+  \end{itemize}
 \end{frame}
 
 \end{document}
