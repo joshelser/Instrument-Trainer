@@ -32,3 +32,12 @@ aubio/src/*.lo
 aubio/src/*.la
 
 aubio/src/.libs/
+
+docs/presentation.aux
+docs/presentation.log
+docs/presentation.nav
+docs/presentation.out
+docs/presentation.pdf
+docs/presentation.snm
+docs/presentation.toc
+docs/presentation.vrb
