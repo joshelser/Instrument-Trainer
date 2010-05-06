@@ -9,6 +9,8 @@
 
 timidity -iA -B2,8 -Os -EFreverb=0 &
 
+sleep 1
+
 jackd -dalsa -dhw:0 -r48000 -p1024 -n2 &
 
 # allow time for jack to startup fully
